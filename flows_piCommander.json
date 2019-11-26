@@ -1,0 +1,3175 @@
+[
+    {
+        "id": "b618978a.87b048",
+        "type": "tab",
+        "label": "MainSystem",
+        "disabled": false,
+        "info": "Main Flow"
+    },
+    {
+        "id": "599e29f5.447208",
+        "type": "tab",
+        "label": "Unused",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "65545df2.7c5e34",
+        "type": "tab",
+        "label": "GUI-DeviceDatabase",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2efc9726.2c37e8",
+        "type": "subflow",
+        "name": "Sony VPL-VW285ES",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "c375d564.254b78"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 580,
+                "y": 400,
+                "wires": [
+                    {
+                        "id": "d5a9e99.586ec18",
+                        "port": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9fe261d.b4804a",
+        "type": "subflow",
+        "name": "Wink",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 540,
+                "wires": [
+                    {
+                        "id": "5a94e343.d5122c"
+                    },
+                    {
+                        "id": "a97fd4cd.4816e8"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1240,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "494c2561.7546fc",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "264e42a2.4aaf0e",
+        "type": "subflow",
+        "name": "Power Supply",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 1680,
+                "y": 600,
+                "wires": [
+                    {
+                        "id": "5d2135da.5adf0c"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1180,
+                "y": 500,
+                "wires": [
+                    {
+                        "id": "6134fe9d.f6b1f",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cd9b8e03.4524d",
+        "type": "subflow",
+        "name": "RAV88",
+        "info": "Status of the RAV88",
+        "category": "",
+        "in": [
+            {
+                "x": 120,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "d20319e3.8260d8"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 940,
+                "y": 220,
+                "wires": [
+                    {
+                        "id": "e8c05710.af12c8",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b7d527cc.231d68",
+        "type": "subflow",
+        "name": "Quadview",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "c5d28890.ab6528"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 820,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "1e6613a7.926fec",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "fcb0a14.a274f6",
+        "type": "subflow",
+        "name": "Telnet Interface",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 120,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "e889a7ca.b55548"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 640,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "5fb22fa8.6f33f",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 420,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "e889a7ca.b55548",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 820,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "73685866.6fc1f8",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "38a43e3a.cd9272",
+        "type": "subflow",
+        "name": "Harmony Interface",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "2a55ecad.a6d8d4"
+                    },
+                    {
+                        "id": "d674c4f4.964e68"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 940,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "5467b2ab.21815c",
+                        "port": 0
+                    },
+                    {
+                        "id": "aceecfbc.08b16",
+                        "port": 0
+                    },
+                    {
+                        "id": "5dc8fd9f.b878f4",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1ec6843.1d0217c",
+        "type": "subflow",
+        "name": "Activities",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 120,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "bec21633.7ee988"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1360,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "9d07626d.3c8c6",
+                        "port": 0
+                    },
+                    {
+                        "id": "fc3fd0f1.53767",
+                        "port": 0
+                    },
+                    {
+                        "id": "32897b74.9c6014",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "681e9b18.724a84",
+        "type": "subflow",
+        "name": "iPad Interface",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 620,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "8fab7fb7.95f82",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3705bf07.95e76",
+        "type": "subflow",
+        "name": "Infrared",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "3551cb59.4d1d74"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "c9602112.d5319",
+        "type": "subflow",
+        "name": "REST api",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 60,
+                "wires": [
+                    {
+                        "id": "f201fb8f.c54958"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 540,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "60787b6f.bbdb84",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dc466c0e.9afc3",
+        "type": "subflow",
+        "name": "RokuEmulator",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [],
+        "env": [],
+        "color": "#DDAA99"
+    },
+    {
+        "id": "e9d71a40.782598",
+        "type": "harmonyws-server",
+        "z": "",
+        "name": "Family Room",
+        "ip": "192.168.1.2"
+    },
+    {
+        "id": "675d78ae.10da88",
+        "type": "harmonyws-server",
+        "z": "",
+        "name": "Theatre Room",
+        "ip": "192.168.1.4"
+    },
+    {
+        "id": "2626acd1.d70814",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "62b39007.56f7a",
+        "type": "http in",
+        "z": "dc466c0e.9afc3",
+        "name": "Dial/DD.xml",
+        "url": "/dial/dd.xml",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "b72f7283.33e63",
+                "dfe46aa3.92f428"
+            ]
+        ]
+    },
+    {
+        "id": "ee04606b.38ca8",
+        "type": "http in",
+        "z": "dc466c0e.9afc3",
+        "name": "Root",
+        "url": "/",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "b72f7283.33e63"
+            ]
+        ]
+    },
+    {
+        "id": "a8846c1c.4a656",
+        "type": "http in",
+        "z": "dc466c0e.9afc3",
+        "name": "Device Info",
+        "url": "/query/device-info",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 420,
+        "wires": [
+            [
+                "b5f8f28b.de344"
+            ]
+        ]
+    },
+    {
+        "id": "750b8562.23b07c",
+        "type": "http in",
+        "z": "dc466c0e.9afc3",
+        "name": "Apps",
+        "url": "/query/apps",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 520,
+        "wires": [
+            [
+                "ca91ff41.69211"
+            ]
+        ]
+    },
+    {
+        "id": "d6906055.7328b",
+        "type": "http in",
+        "z": "dc466c0e.9afc3",
+        "name": "Icons",
+        "url": "192.168.1.23:8060/query/icons",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 620,
+        "wires": [
+            [
+                "2e40233e.52aa8c"
+            ]
+        ]
+    },
+    {
+        "id": "f49f307d.c2ec7",
+        "type": "debug",
+        "z": "dc466c0e.9afc3",
+        "name": "Request For DevInfo",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "x": 940,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "e4b8d769.bcae98",
+        "type": "http response",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/xml"
+        },
+        "x": 900,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "afdf8f3b.9677",
+        "type": "http response",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/xml"
+        },
+        "x": 1060,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6ef4c5ea.d3757c",
+        "type": "http response",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/xml"
+        },
+        "x": 880,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "1e0936a6.6864b9",
+        "type": "http response",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "text/plain"
+        },
+        "x": 580,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b72f7283.33e63",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "DialDD XML Generator",
+        "func": "    Go = msg.payload\n    msg.payload = {\n    'specVersion':{\n        'major':'1',\n        'minor':'0'},\n     'device':{\n        'deviceType':'urn:roku-com:device:player:1-0',\n        'friendlyName':flow.get('override_friendlyname'),\n        'manufacturer':'Roku',\n        'manufacturerURL':'http://www.roku.com/',\n        'modelDescription':'Roku Streaming Player Network Media',\n        'modelName':'4K Roku TV',\n        'modelNumber':'7000X',\n        'modelURL':'http://www.roku.com/',\n        'serialNumber':flow.get('override_serialnumber'),\n        'UDN':'uuid:'+ flow.get('override_udn'),\n        'serviceList':{\n            'service':{\n                'serviceType':'urn:roku-com:service:ecp:1',\n                'serviceId':'urn:roku-com:serviceId:ecp1-0',\n                'controlURL':'',\n                'eventSubURL':'',\n                'SCPDURL':'ecp_SCPD.xml'\n            },\n            'service2':{\n                'serviceType':'urn:dial-multiscreen-org:service:dial:1',\n                'serviceId':'urn:dial-multiscreen-org:serviceId:dial1-0',\n                'controlURL':'',\n                'eventSubURL':'',\n                'SCPDURL':'dial_SCPD.xml'\n            }\n        }\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 220,
+        "wires": [
+            [
+                "ee0e26d0.f2e3e8"
+            ]
+        ]
+    },
+    {
+        "id": "ee0e26d0.f2e3e8",
+        "type": "xml",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 590,
+        "y": 220,
+        "wires": [
+            [
+                "fc309b23.2d7538"
+            ]
+        ]
+    },
+    {
+        "id": "fc309b23.2d7538",
+        "type": "change",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "service2",
+                "fromt": "str",
+                "to": "service",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "<root",
+                "fromt": "str",
+                "to": "<root xmlns = \"urn:schemas-upnp-org:device-1-0\"",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 220,
+        "wires": [
+            [
+                "e4b8d769.bcae98"
+            ]
+        ]
+    },
+    {
+        "id": "b5f8f28b.de344",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "Device Info XML Info",
+        "func": "var addr = context.global.addr\n//console.log(addr);\n\nmsg.payload =  {\n        'udn':flow.get('override_udn'),\n        'serial-number':flow.get('override_serialnumber'),\n        'device-id':flow.get('override_deviceid'),\n        'advertising-id':'f3799a21-6504-52bc-ae8c-254c01b004df',\n        'vendor-name':'Roku',\n        'model-name':'4K Roku TV',\n        'model-number':'7000X',\n        'model-region':'US',\n        'is-tv':'true',\n        'is-stick':'false',\n        'supports-ethernet':'true',\n        'wifi-mac':'c8.3a.6b.14.3e.dd',\n        'ethernet-mac':flow.get('override_macaddress'),\n        'network-type':'ethernet',\n        'friendly-device-name':flow.get('override_friendlyname'),\n        'friendly-model-name':'Roku Commander<',\n        'default-device-name':'Roku Ultra - ' + flow.get('override_serialnumber'),\n        'user-device-name':flow.get('override_friendlyname'),\n       'build-number':'469.10E04111A',\n        'software-version':'9.0.0',\n        'software-build':'4072',\n        'secure-device':'true',\n        'language':'en',\n        'country':'US',\n        'locale':'en_US',\n        'time-zone-auto':'true',\n        'time-zone':'US/Pacific',\n        'time-zone-name':'United States/Pacific',\n        'time-zone-tz':'America/Los_Angeles',\n        'time-zone-offset':'-480',\n        'clock-format':'12-hour',\n        'uptime':'509224',\n        'power-mode':'PowerOn',\n        'supports-suspend':'false',\n        'supports-find-remote':'true',\n        'find-remote-is-possible':'true',\n        'supports-audio-guide':'true',\n        'supports-rva':'true',\n        'developer-enabled':'true',\n        'keyed-developer-id':'',\n        'search-enabled':'true',\n        'search-channels-enabled':'true',\n        'voice-search-enabled':'true',\n        'notifications-enabled':'true',\n        'notifications-first-use':'true',\n        'supports-private-listening':'true',\n        'headphones-connected':'false',\n        'supports-ecs-textedit':'true',\n        'supports-ecs-microphone':'true',\n        'supports-wake-on-wlan':'false',\n        'has-play-on-roku':'true',\n        'has-mobile-screensaver':'true',\n        'support-url':'roku.com/support',\n        'grandcentral-version':'1.9.34',\n        'davinci-version':'1.8.5',\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 420,
+        "wires": [
+            [
+                "41645fbe.857c7"
+            ]
+        ]
+    },
+    {
+        "id": "41645fbe.857c7",
+        "type": "xml",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 570,
+        "y": 420,
+        "wires": [
+            [
+                "489ca4e.ea5b45c"
+            ]
+        ]
+    },
+    {
+        "id": "ca91ff41.69211",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "Generate Apps List",
+        "func": "Apps = {}\n\nApps['Netflix'] = []\nApps['Netflix'].version = '5.0.81179026'\nApps['Netflix'].id = '12'\nApps['Netflix'].type = 'appl'\nApps['Netflix'].subtype = 'ndka'\n\nApps['Hulu'] = []\nApps['Hulu'].version = '6.20.0'\nApps['Hulu'].id = '2285'\nApps['Hulu'].type = 'appl'\nApps['Hulu'].subtype = 'rsga'\n\nApps['Prime Video'] = []\nApps['Prime Video'].version = '11.0.2019073014'\nApps['Prime Video'].id = '13'\nApps['Prime Video'].type = 'appl'\nApps['Prime Video'].subtype = 'ndka'\n\nApps['Plex'] = []\nApps['Plex'].version = '6.3.11'\nApps['Plex'].id = '13535'\nApps['Plex'].type = 'appl'\nApps['Plex'].subtype = 'rsga'\n\nflow.set('Apps',Apps)\nkey = Object.keys(Apps)\n\nxmlout = {}\nfor (idx=0;idx<key.length;idx++){\n    tmp = 'app'+idx\n    xmlout['app'+idx] = key[idx]\n}\nmsg.payload = xmlout\n\n\n \nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 520,
+        "wires": [
+            [
+                "1714dac5.887c95"
+            ]
+        ]
+    },
+    {
+        "id": "2e40233e.52aa8c",
+        "type": "file in",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "1e0936a6.6864b9"
+            ]
+        ]
+    },
+    {
+        "id": "fff0963f.112638",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "Set Context Flows",
+        "func": "    flow.set(\"override_udn\",\"29680013-180d-10cf-8019-c83a6b124eec\");\n    flow.set(\"override_serialnumber\",\"YJ00C6904987\");\n    flow.set(\"override_deviceid\",\"CK379C904987\");\n    flow.set(\"override_advertisingid\",\"f3799a21-6504-52bc-ae8c-254c01b004df\"),\n    flow.set(\"override_friendlyname\", \"Harmony Interface\");\n    flow.set('override_macaddress',msg.payload.networkInterfaces.eth0[0].mac)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c6beb19.deed84",
+        "type": "inject",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "2075efbe.315e5"
+            ]
+        ]
+    },
+    {
+        "id": "2075efbe.315e5",
+        "type": "NetworkIntf",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "fff0963f.112638"
+            ]
+        ]
+    },
+    {
+        "id": "51c71c01.398014",
+        "type": "comment",
+        "z": "dc466c0e.9afc3",
+        "name": "Needs Work",
+        "info": "Need to build complex xml file.\nMaybe read one from current roku and edit?",
+        "x": 190,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1428df0f.040361",
+        "type": "comment",
+        "z": "dc466c0e.9afc3",
+        "name": "Needs Work",
+        "info": "Need to implemnent",
+        "x": 190,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "c5be88d0.719fb8",
+        "type": "comment",
+        "z": "dc466c0e.9afc3",
+        "name": "Done",
+        "info": "",
+        "x": 190,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "2dd2a283.de5fbe",
+        "type": "comment",
+        "z": "dc466c0e.9afc3",
+        "name": "Done",
+        "info": "",
+        "x": 210,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d6efe879.ad3df8",
+        "type": "comment",
+        "z": "dc466c0e.9afc3",
+        "name": "Initialize Flow Context Variables",
+        "info": "",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c375d564.254b78",
+        "type": "function",
+        "z": "2efc9726.2c37e8",
+        "name": "CommandTranslate",
+        "func": "var command = msg.payload;\nvar  parts = command.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\n\nif (parts[0]==\"VPLVW285ES\") {\n    switch (parts[1]){\n        case \"Power\":\n            switch(parts[2]){\n                case \"On\": \n                    timeoutObj = context.get('timeoutObj');\n                    clearTimeout(timeoutObj)\n                    cmd = new Buffer([2,10,83,79,78,89,0,23,46,2,0,0]); \n                    msg.payload = cmd.toString();\n                    node.send(msg);\n                    break;\n                case \"Off\": \n                    timeoutObj = setTimeout(() => {\n                        msg.payload = new Buffer([2,10,83,79,78,89,0,23,47,2,0,0]).toString(); \n                        node.send(msg);},500); \n                    context.set('timeoutObj',timeoutObj)\n                    break;\n                case \"Query\": msg.payload = new Buffer([2,10,83,79,78,89,1,1,2,0]).toString(); node.send(msg);break;\n            }break;\n        case \"Input\":\n            switch(parts[2]){\n                case \"HDMI1\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,1,2,0,4]).toString(); node.send(msg);break;\n                case \"HDMI2\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,1,2,0,5]).toString(); node.send(msg);break;\n                case \"Query\": msg.payload = new Buffer([2,10,83,79,78,89,1,0,1,0]).toString(); node.send(msg);break;\n            }break;\n        case \"CalibratedPreset\":\n            switch(parts[2]){\n                case \"Cinema1\": console.log('Cinema Calibration Msg');msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,0]).toString(); node.send(msg);break; \n                case \"Cinema2\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,1]).toString(); node.send(msg);break;\n                case \"TV\":msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,4]).toString(); node.send(msg);break;\n                case \"Game\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,5]).toString(); node.send(msg);break;\n                case \"BrightCinema\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,6]).toString(); node.send(msg);break;\n                case \"BrightTV\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,7]).toString(); node.send(msg);break;\n                case \"User\": console.log('User Calibration Msg');msg.payload = new Buffer([2,10,83,79,78,89,0,0,2,2,0,8]).toString(); node.send(msg);break;\n                case \"Query\": msg.payload = new Buffer([2,10,83,79,78,89,1,0,2,0]).toString(); node.send(msg);break;\n                case \"Cycle\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,91,2,0,0]).toString(); node.send(msg);break;\n\n            }break;\n        case \"Aspect\":\n            switch (parts[2]){\n                case \"235\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,32,2,0,13]).toString(); node.send(msg);break;\n                case \"185\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,32,2,0,12]).toString(); node.send(msg);break; \n                case \"Normal\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,32,2,0,1]).toString(); node.send(msg);break;\n                case \"VStretch\": msg.payload = new Buffer([\"\"]); break;\n                case \"Stretch\": msg.payload = new Buffer([\"\"]);break;\n                case \"Squeeze\": msg.payload = new Buffer([2,10,83,79,78,89,0,0,32,2,0,15]).toString(); node.send(msg);break;\n                case \"Query\": msg.payload = new Buffer([2,10,83,79,78,89,1, 0, 32, 0]).toString(); node.send(msg);break;\n                case \"Cycle\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,110,2,0,0]).toString(); node.send(msg);break;\n\n            }break;\n        case \"Lens Shift\":\n            switch(parts[2]){\n                case \"Up\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,114,2,0,0]).toString(); node.send(msg);break;\n                case \"Down\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,115,2,0,0]).toString(); node.send(msg);break;\n            }break;\n        case \"Lens Focus\":\n            switch (parts[2]){\n                case \"Far\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,116,2,0,0]).toString(); node.send(msg);break;\n                case \"Near\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,117,2,0,0]).toString(); node.send(msg);break; \n            }break;\n        case \"Lense Zoom\":\n            switch(parts[2]){\n                case \"In\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,119,2,0,0]).toString(); node.send(msg);break;\n                case \"Out\": msg.payload = new Buffer([2,10,83,79,78,89,0,23,120,2,0,0]).toString(); node.send(msg);break;\n            }break;\n        case 'Play':break;\n        case 'Rev': break;\n        case 'Fwd': break;\n        case 'Home': msg.payload = new Buffer([2,10,83,79,78,89,0,23,41,2,0,0]).toString(); node.send(msg);break;\n        case 'Left': msg.payload = new Buffer([2,10,83,79,78,89,0,23,51,2,0,0]).toString(); node.send(msg);break;\n        case 'Right':  msg.payload = new Buffer([2,10,83,79,78,89,0,23,52,2,0,0]).toString(); node.send(msg);break;\n        case 'Down': msg.payload = new Buffer([2,10,83,79,78,89,0,23,54,2,0,0]).toString(); node.send(msg);break;\n        case 'Up': msg.payload= new Buffer([2,10,83,79,78,89,0,23,90,2,0,0]).toString(); node.send(msg);break;\n        case 'Select': msg.payload = new Buffer([2,10,83,79,78,89,0,23,51,2,0,0]).toString(); node.send(msg);break;\n        case 'InstantReplay': break;\n        case 'Back':break\n        case 'Info':break;\n        case 'Search':break;\n        default: console.log(\"Command Not Recognized:\" + command);break;\n    }\n    \n}\nreturn\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "7b454d5c.b63004"
+            ]
+        ]
+    },
+    {
+        "id": "d5a9e99.586ec18",
+        "type": "function",
+        "z": "2efc9726.2c37e8",
+        "name": "StatusFeedback",
+        "func": "data = msg.payload\ndatastructure = flow.get('vplvw285es_ds')\nvar itemnum = 256*data[7] + data[8];\nvar datalen = data[9];\nmsg = {}\nmsg[0]={};msg[1]={};msg[2]={};msg[3]={};msg[4]={};msg[5]={};msg[6]={};\n//console.log(itemnum)\nswitch(itemnum){\n    case 1: //Input\n        //console.log('Sony Input data:' + data[11])\n        switch (data[11]){\n            case 2:datastructure['Input'] = 'HDMI 1';break;\n            case 3:datastructure['Input'] = 'HDMI 2';break;\n            }\n            \n        break;\n    case 2: //Calibrated Preset\n        switch(data[11]){\n            case 0:datastructure['Calibrated Preset'] = 'Cinema Film 1';break;\n            case 1:datastructure['Calibrated Preset'] = 'Cinema Film 2';break;\n            case 2:datastructure['Calibrated Preset'] = 'Reference';break;\n            case 3:datastructure['Calibrated Preset'] = 'Television';break;\n            case 4:datastructure['Calibrated Preset'] = 'Photo';break;\n            case 5:datastructure['Calibrated Preset'] = 'Game';break;\n            case 6:datastructure['Calibrated Preset'] = 'Bright Cinema' ;break;\n            case 7:datastructure['Calibrated Preset'] = 'Bright TV';break;\n            case 8:datastructure['Calibrated Preset'] = 'User';break;}\n        break;\n    case 32: //Aspect\n        switch(data[11]){\n            case 1:datastructure['Aspect'] = 'Normal';break;\n            case 11:datastructure['Aspect'] = 'Vstretch';break;\n            case 12:datastructure['Aspect'] = '1.85:1 Zoom';break;\n            case 13:datastructure['Aspect'] = '2.35:1 Zoom';break;\n            case 14:datastructure['Aspect'] = 'Stretch';break;\n            case 15:datastructure['Aspect'] = 'Squeeze';break;\n            }\n        break;\n    case 258: //Power\n        switch (data[11]){\n            case 0:datastructure['Power'] = 'VPLVW285ES:Power:Off'; break;\n            case 3:datastructure['Power'] = 'VPLVW285ES:Power:On'; break;\n\n            }\n        break;\n    default:\n        for(i=6;i<data.length;i++){\n            console.log(\"Sony Said:\" + data[i]);\n            }\n        break;\n    }\n    \n    //console.log(datastructure)\nflow.set('vplvw285es_ds',datastructure)\nmsg[0].payload = datastructure['Input'];\nmsg[1].payload = datastructure['Power']\nmsg[2].payload = datastructure['Calibrated Preset'];\nmsg[3].payload = datastructure['Aspect'];\nmsg[4].payload = datastructure['Zoom'];\nmsg[5].payload = datastructure['Shift'];\nmsg[6].payload = datastructure['Focus']\nreturn [msg[0],msg[1],msg[2],msg[3],msg[4],msg[5],msg[6]]",
+        "outputs": 7,
+        "noerr": 0,
+        "x": 240,
+        "y": 420,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7b454d5c.b63004",
+        "type": "tcp request",
+        "z": "2efc9726.2c37e8",
+        "server": "192.168.1.22",
+        "port": "53484",
+        "out": "sit",
+        "splitc": " ",
+        "name": "",
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "74d07d6f.418f54"
+            ]
+        ]
+    },
+    {
+        "id": "159f6cbb.639033",
+        "type": "function",
+        "z": "2efc9726.2c37e8",
+        "name": "Initialize",
+        "func": "var ds = {'Input':'Unknown',\n        'Calibrated Preset':'Unknown',\n        'Aspect':'Unknown',\n        'Power':'Unknown',\n        'Zoom':'91',\n        'Shift':'45',\n        'Focus':'100'\n}\nflow.set('vplvw285es_ds',ds)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e57e32af.32b28",
+        "type": "inject",
+        "z": "2efc9726.2c37e8",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 70,
+        "y": 20,
+        "wires": [
+            [
+                "159f6cbb.639033"
+            ]
+        ]
+    },
+    {
+        "id": "288bcef0.ec7232",
+        "type": "http in",
+        "z": "9fe261d.b4804a",
+        "name": "WinkCode",
+        "url": "/wink2",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "1c5d727e.7bc9ee",
+                "c4984d99.6f267"
+            ]
+        ]
+    },
+    {
+        "id": "1c5d727e.7bc9ee",
+        "type": "http response",
+        "z": "9fe261d.b4804a",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 320,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6c2ba254.95ea2c",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Login To Wink",
+        "method": "GET",
+        "ret": "txt",
+        "url": "https://api.wink.com/oauth2/authorize?client_id=2vPQkUHzjBAC3LxYipCOi_bPqKNqVaY8&redirect_uri=http://192.168.1.23:8060/wink2",
+        "tls": "",
+        "x": 520,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "707c815.1481d8",
+        "type": "inject",
+        "z": "9fe261d.b4804a",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 40,
+        "wires": [
+            [
+                "6c2ba254.95ea2c"
+            ]
+        ]
+    },
+    {
+        "id": "c4984d99.6f267",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Token from Code",
+        "func": "code = msg.payload.code\n\nflow.set('AuthorizationCode', msg.payload.code)\n\nbody = {\n        'client_secret': '49LlTCbwh0rD_BId9zoHmS1sSXWUPrE-',\n        'grant_type': 'authorization_code',\n        'code': code,\n        'local_control':true\n}\nmsg.payload = JSON.stringify(body)\nmsg.headers = {'Content-Type':'application/json'};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "4443f20a.aa834c"
+            ]
+        ]
+    },
+    {
+        "id": "4443f20a.aa834c",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Token Request",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://api.wink.com/oauth2/token",
+        "tls": "",
+        "x": 680,
+        "y": 140,
+        "wires": [
+            [
+                "23444bb.bfa86b4"
+            ]
+        ]
+    },
+    {
+        "id": "494c2561.7546fc",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Store Token Info",
+        "func": "if (msg.statusCode == 200){\n    data = msg.payload\n\n    AccessToken = data['access_token'];\n    RefreshToken = data['refresh_token'];\n\n    global.set('WinkAccessToken',AccessToken)\n    global.set('WinkRefreshToken',RefreshToken)\n\n\n    msg.payload = 'Token Achieved';\n    msg.headers = {'Authorization':'Bearer '+AccessToken};\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1030,
+        "y": 140,
+        "wires": [
+            [
+                "d4d991d7.c52c4"
+            ]
+        ]
+    },
+    {
+        "id": "23444bb.bfa86b4",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 850,
+        "y": 140,
+        "wires": [
+            [
+                "494c2561.7546fc"
+            ]
+        ]
+    },
+    {
+        "id": "80742b5.540e5d8",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Wink Set Device",
+        "method": "use",
+        "ret": "txt",
+        "url": "",
+        "tls": "",
+        "x": 460,
+        "y": 740,
+        "wires": [
+            [
+                "2ffd68fd.44d3e8"
+            ]
+        ]
+    },
+    {
+        "id": "a97fd4cd.4816e8",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Manage Devices",
+        "func": "data = msg.payload;\n\nvar  parts = data.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nif (parts[0]=='Wink'){\n    AccessToken = global.get('WinkAccessToken')\n    msg.headers = {'Content-Type':'application/json','Authorization':'Bearer '+AccessToken};\n    WinkLights = flow.get('WinkLights');\n    WinkGroups = flow.get('WinkGroups');\n    WinkSwitches = flow.get('WinkSwitches');\n  \n    switch (parts[1]){\n        case 'Light':\n            switch (parts[2]){\n                case 'FamilyRoom':\n                    msg.url = 'https://api.wink.com/light_bulbs/' + WinkLights['Family Room Dimmer']['id'] + '/desired_state';  //family room\n                    if (parts[3] < 0.05){ body = {'desired_state':{'powered':false,'brightness':parts[3]/100}};\n                    }else{body = {'desired_state':{'powered':true,'brightness':parts[3]/100}};}\n                    WinkLights['Family Room Dimmer']['brightness'] = parts[3]/100;break;\n                case 'Lobby':\n                    msg.url = 'https://api.wink.com/light_bulbs/' + WinkLights['Lobby Dimmer']['id'] + '/desired_state';  //family room\n                   // msg.url = 'https://192.168.1.104/light_bulbs/' + WinkLights['Lobby Dimmer']['id'] + '/desired_state';  //family room\n                    if (parts[3] < 0.05){ body = {'desired_state':{'powered':false,'brightness':parts[3]/100}};\n                    }else{body = {'desired_state':{'powered':true,'brightness':parts[3]/100}};}\n                    WinkLights['Lobby Dimmer']['brightness'] = parts[3]/100;break;\n            }\n            msg.method = 'PUT';\n            msg.payload =JSON.stringify(body);\n            node.send(msg);\n            break;\n        case 'Switch':\n            switch (parts[2]){\n                case 'LegoLights':msg.url = 'https://api.wink.com/binary_switches/' + WinkSwitches['Lego Lights']['id'] + '/desired_state'; break;\n                case 'TopLightLoad':msg.url = 'https://api.wink.com/binary_switches/' + WinkSwitches['Top Light Load']['id'] + '/desired_state'; break;\n                case 'BottomLightLoad':msg.url = 'https://api.wink.com/binary_switches/' + WinkSwitches['Bottom Light Load']['id'] + '/desired_state'; break;\n                case 'LegoWorklight':msg.url = 'https://api.wink.com/binary_switches/' + WinkSwitches['Lego Worklight']['id'] + '/desired_state'; break;\n            }\n            switch (parts[3]){\n                case 'Off':body = {'desired_state':{'powered':false}}; break;\n                case 'On':body = {'desired_state':{'powered':true}}; break;\n            }\n            \n            msg.method = 'PUT';\n            msg.payload =JSON.stringify(body);\n            node.send(msg);\n            break;\n        case 'LightGroup':\n            msg.method = 'POST';\n            switch(parts[2]){\n                case 'Kitchen':\n                    msg.url = 'https://api.wink.com/groups/' + WinkGroups['All Kitchen']['id'] + '/activate'; \n                    if (parts[3]/100 < 0.05){body = {'desired_state':{'powered':false,'brightness':parts[3]/100}};\n                    }else{body = {'desired_state':{'powered':true,'brightness':parts[3]/100}};}\n                    WinkGroups['All Kitchen']['brightness'] = parts[3]/100;\n                    break;\n                case 'TheatreRear':\n                    msg.url = 'https://api.wink.com/groups/' + WinkGroups['Rear Theatre']['id'] + '/activate'; \n                    if (parts[3]/100 < 0.05){body = {'desired_state':{'powered':false,'brightness':parts[3]/100}};\n                    }else{body = {'desired_state':{'powered':true,'brightness':parts[3]/100}};}\n                    WinkGroups['Rear Theatre']['brightness'] = parts[3]/100;\n                    break;\n                case 'TheatreFront':\n                    msg.url = 'https://api.wink.com/groups/' + WinkGroups['Front Theatre']['id'] + '/activate'; \n                    if (parts[3]/100 < 0.05){body = {'desired_state':{'powered':false,'brightness':parts[3]/100}};\n                    }else{body = {'desired_state':{'powered':true,'brightness':parts[3]/100}};}\n                    WinkGroups['Front Theatre']['brightness'] = parts[3]/100;\n                    break;\n            }\n             msg.payload =JSON.stringify(body);\n    \n\n            node.send(msg);\n            break;\n        case 'GetSystemStatus':\n            break;\n    } //parts[1]\n       \n } //end if parts[0]",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 230,
+        "y": 740,
+        "wires": [
+            [
+                "80742b5.540e5d8"
+            ]
+        ]
+    },
+    {
+        "id": "181222d0.3d7d7d",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Get All Lights",
+        "method": "use",
+        "ret": "txt",
+        "url": "https://api.wink.com/users/me/light_bulbs",
+        "tls": "",
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "9b949e75.921bf"
+            ]
+        ]
+    },
+    {
+        "id": "15ac3ed4.d19951",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "Lights JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 400,
+        "wires": [
+            [
+                "10f4ab1b.a13ad5"
+            ]
+        ]
+    },
+    {
+        "id": "a7f29282.27d78",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Get All Groups",
+        "method": "use",
+        "ret": "txt",
+        "url": "https://api.wink.com/users/me/groups",
+        "tls": "",
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "bed65d07.d0c6d"
+            ]
+        ]
+    },
+    {
+        "id": "f803826b.db5bd",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "Groups JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 800,
+        "y": 540,
+        "wires": [
+            [
+                "df634d1f.cb73e"
+            ]
+        ]
+    },
+    {
+        "id": "10f4ab1b.a13ad5",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Store Light Info",
+        "func": "input = msg.payload.data\ngroups = Object.keys(input);\n\nWinkGroups = flow.get('WinkLights') || {};\ntry{\n    a=input[0][name]\n    data ={}\n    data=input;\n    length = groups.length;\n    \n}\ncatch (err){\n    data ={}\n    data[0] ={}\n    data[0] =input\n    length =1;\n    \n}\n\nout = {}\ntry{\n    a=data[0]['light_bulb_id']\n    WinkLights = flow.get('WinkLights')||{};\n    out = {};\n    for (i=0;i<length;i++){\n        var name = data[i]['name'];\n        WinkLights[name] = {};\n        WinkLights[name]['id']= data[i]['light_bulb_id'];\n        WinkLights[name]['powered'] = data[i]['desired_state']['powered'];\n        WinkLights[name]['brightness'] = data[i]['desired_state']['brightness'];\n        WinkLights[name]['colortemp'] = data[i]['desired_state']['color_temperature'];\n        WinkLights[name]['connected'] = data[i]['last_reading']['connection']\n    }\n    flow.set('WinkLights',WinkLights)\n \n    \n}\ncatch(err){}\nlights= Object.keys(WinkLights);\nfor (i=0;i<13;i++){\n    name = lights[i]\n    out[i]={}\n    if (WinkLights[name]['connected']===true){\n        out[i].payload = WinkLights[name]['brightness']*100;\n    }else{\n        out[i].payload = 0;\n    }\n}\nreturn [out[0], out[1], out[2], out[3], out[4], out[5], out[6], out[7], out[8], out[9], out[10], out[11], out[12]]",
+        "outputs": 13,
+        "noerr": 0,
+        "x": 1020,
+        "y": 400,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "df634d1f.cb73e",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Store Group Info",
+        "func": "input = msg.payload.data\ngroups = Object.keys(input);\n\nWinkGroups = flow.get('WinkGroups') || {};\ntry{\n    a=input[0][name]\n    data ={}\n    data=input;\n    length = groups.length\n    \n}\ncatch (err){\n    data ={}\n    data[0] ={}\n    data[0] =input\n    length =1\n    \n}\n\nout = {}\ntry{\n    a=data[0]['group_id']\n    for (i=0;i<length;i++){\n        var name = data[i]['name'];\n        WinkGroups[name] = {};\n        WinkGroups[name]['id']= data[i]['group_id'];\n        WinkGroups[name]['powered'] = data[i]['reading_aggregation']['powered']['true_count']>0;\n        WinkGroups[name]['brightness'] = data[i]['reading_aggregation']['brightness']['average'];\n        WinkGroups[name]['colortemp'] = data[i]['reading_aggregation']['color_temperature']['average'];\n        WinkGroups[name]['connected'] = data[i]['reading_aggregation']['connection']['true_count'];\n\n    flow.set('WinkGroups',WinkGroups)\n\n    }\n}\ncatch(err){}\ngroups = Object.keys(WinkGroups);\nfor (i=0;i<3;i++){\n    name = groups[i]\n    out[i]={}\n    if (WinkGroups[name]['connected']>0){\n        out[i].payload = WinkGroups[name]['brightness']*100;\n    }else{\n        out[i].payload =0\n    }\n}\nreturn [out[0], out[1], out[2]];\n",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 1030,
+        "y": 540,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3ad61377.8e2fec",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Get All Hubs",
+        "method": "use",
+        "ret": "txt",
+        "url": "https://api.wink.com/users/me/hubs",
+        "tls": "",
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "77992d2f.70eb64"
+            ]
+        ]
+    },
+    {
+        "id": "cc5d0fe3.7f8e7",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "Hubs JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 260,
+        "wires": [
+            [
+                "1d9df3af.96e79c"
+            ]
+        ]
+    },
+    {
+        "id": "d0225bb6.a05168",
+        "type": "http request",
+        "z": "9fe261d.b4804a",
+        "name": "Get All Switches",
+        "method": "use",
+        "ret": "txt",
+        "url": "https://api.wink.com/users/me/binary_switches",
+        "tls": "",
+        "x": 380,
+        "y": 680,
+        "wires": [
+            [
+                "5a977fe0.72d85"
+            ]
+        ]
+    },
+    {
+        "id": "ec46f258.e2e2e",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "Switches JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 740,
+        "y": 680,
+        "wires": [
+            [
+                "2f365546.b42eca"
+            ]
+        ]
+    },
+    {
+        "id": "371eaeeb.5530e2",
+        "type": "inject",
+        "z": "9fe261d.b4804a",
+        "name": "",
+        "topic": "",
+        "payload": ".2",
+        "payloadType": "num",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 910,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d9df3af.96e79c",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Store Hub Info",
+        "func": "data = msg.payload.data\nhubs = Object.keys(data);\ntry{\n    WinkHubs = flow.get('WinkHubs')||{};\n\nfor (i=0;i<hubs.length;i++){\n    var name = data[i]['name'];\n    WinkHubs[name] = {};\n    WinkHubs[name]['id']= data[i]['hub_id'];\n}\nflow.set('WinkHubs',WinkHubs)\nmsg.payload = WinkHubs;\n//console.log(WinkHubs)\nreturn msg;\n}\ncatch(err){}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1020,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f365546.b42eca",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Store Switch Info",
+        "func": "input = msg.payload.data\ngroups = Object.keys(input);\n\nWinkSwitches = flow.get('WinkSwitches')||{};\ntry{\n    a=input[0][name]\n    data ={}\n    data=input;\n    length = groups.length\n    \n}\ncatch (err){\n    data ={}\n    data[0] ={}\n    data[0] =input\n    length =1\n    \n}\n\nout = {}\ntry{\n    a=data[0]['binary_switch_id']\n    var out = {};\n    for (i=0;i<length;i++){\n        var name = data[i]['name'];\n        WinkSwitches[name] = {};\n        WinkSwitches[name]['id']= data[i]['binary_switch_id'];\n        WinkSwitches[name]['powered'] = data[i]['desired_state']['powered'];\n\n    }\n    flow.set('WinkSwitches',WinkSwitches)\n   \n}\ncatch(err){}\n\nswitches= Object.keys(WinkSwitches);\nfor (i=0;i<4;i++){\n    name = switches[i]\n    out[i] = {};\n    if (WinkSwitches[name]['powered'] === true){\n        out[i].payload = 'Wink:Switch:'+ name.replace(/\\s+/g, '') +':On';\n    }else{\n    out[i].payload = 'Wink:Switch:'+ name.replace(/\\s+/g, '') +':Off';\n        \n    }\n}\n\nreturn [out[0], out[1], out[2], out[3]];",
+        "outputs": 4,
+        "noerr": 0,
+        "x": 1030,
+        "y": 680,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d4d991d7.c52c4",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Read Token Info",
+        "func": "msg = {};\nmsg.payload = '';\nmsg.method = 'GET';\nmsg.headers = {'Content-Type':'application/json','Authorization':'Bearer '+ global.get('WinkAccessToken')};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "d0225bb6.a05168",
+                "3ad61377.8e2fec",
+                "a7f29282.27d78",
+                "181222d0.3d7d7d"
+            ]
+        ]
+    },
+    {
+        "id": "489cd51b.e3ae0c",
+        "type": "json",
+        "z": "9fe261d.b4804a",
+        "name": "Command JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 740,
+        "wires": [
+            [
+                "10f4ab1b.a13ad5",
+                "2f365546.b42eca",
+                "df634d1f.cb73e"
+            ]
+        ]
+    },
+    {
+        "id": "5a94e343.d5122c",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "GetSystemInfo",
+        "func": "data = msg.payload;\n\nvar  parts = data.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nif (parts[0]=='Wink'){\n    if (parts[1] =='GetSystemStatus'){\n       // console.log('WinkStatusRequested')\n        msg.payload = '';\n        msg.method = 'GET';\n        msg.headers = {'Content-Type':'application/json','Authorization':'Bearer '+ global.get('WinkAccessToken')};\n        return msg\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 100,
+        "y": 400,
+        "wires": [
+            [
+                "181222d0.3d7d7d",
+                "d0225bb6.a05168",
+                "a7f29282.27d78"
+            ]
+        ]
+    },
+    {
+        "id": "bd800534.4da808",
+        "type": "ping",
+        "z": "264e42a2.4aaf0e",
+        "name": "PingProjector",
+        "host": "192.168.1.22:53484",
+        "timer": "60",
+        "x": 1190,
+        "y": 700,
+        "wires": [
+            [
+                "bcea8187.e71fe"
+            ]
+        ]
+    },
+    {
+        "id": "bcea8187.e71fe",
+        "type": "function",
+        "z": "264e42a2.4aaf0e",
+        "name": "PowerCycleProjector10BaseT",
+        "func": "if (msg.payload === false){\n    BadPingCount = context.get('BadPingCnt')||0\n    \n    context.set('BadPingCount',BadPingCount++)\n    if (BadPingCount > 9){\n        msg.payload = 'PowerSupply:PowerCycle:BR10BaseT';\n        context.set('BadPingCount',0)\n        console.log('rebooting...Projector10BaseT')\n        return msg;\n    }\n}else\n{\n    context.set('BadPingCnt',0)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1570,
+        "y": 700,
+        "wires": [
+            [
+                "5d2135da.5adf0c"
+            ]
+        ]
+    },
+    {
+        "id": "5d2135da.5adf0c",
+        "type": "function",
+        "z": "264e42a2.4aaf0e",
+        "name": "ParseCommands",
+        "func": "var command = msg.payload;\nvar  parts = command.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nmap = {\n    'xBoxOneS':1,\n    'Matrix':1,\n    'Projector10BaseT':7,\n    'Roku1':2,\n    'Roku2':2,\n    'PiHub':3,\n    'FamilyRoom10BaseT':5,\n    'Receiver':8,\n    'Fan':8,\n    'Quadview':4,\n    'IRRepeater':7,\n    'Harmony':6}\n    \nif (parts[0] == \"PowerSupply\") {\n    switch(parts[1]){\n        case 'GetStates':\n            msg.method = 'GET';\n            msg.payload = '';\n            msg.url = 'http://admin:1234@192.168.1.5/restapi/relay/outlets';\n            msg.headers = {'Accept':'application/json'}\n            node.send(msg);\n            \n            msg.url = 'http://admin:1234@192.168.1.5/restapi/meter/values';\n            node.send(msg)\n            break;\n        case 'PowerCycle':\n             msg.method = 'GET';\n            msg.payload = 'value = true';\n            msg.url = 'http://admin:1234@192.168.1.5/outlet?'+map[parts[2]]+ '=CCL';\n            msg.headers = {'Accept':'application/json'}\n            node.send(msg);\n            break;\n        case 'On':\n            msg.method = 'GET';\n            msg.payload = 'value = true';\n            msg.url = 'http://admin:1234@192.168.1.5/outlet?'+map[parts[2]]+ '=ON';\n            msg.headers = {'Accept':'application/json'}\n            node.send(msg);\n            break;\n        case 'Off':\n            msg.method = 'GET';\n            msg.payload = 'value = true';\n            msg.url = 'http://admin:1234@192.168.1.5/outlet?'+map[parts[2]]+ '=OFF';\n            msg.headers = {'Accept':'application/json'}\n            node.send(msg);\n            break;\n        case 'Get Current':\n            msg.body = '';\n            break;\n        case 'Get Voltage:':\n            msg.body = '';\n            break;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1970,
+        "y": 300,
+        "wires": [
+            [
+                "d65feaa0.723558"
+            ]
+        ]
+    },
+    {
+        "id": "167cff68.0ad611",
+        "type": "function",
+        "z": "264e42a2.4aaf0e",
+        "name": "GetFeedback",
+        "func": "var data = msg.payload;\n\ntype = msg.responseUrl;\nif (type.indexOf('outlets') >=0){\n\n    if(data[0]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel1 = {payload:'PowerSupply:' + tmp  + ':xBoxOneS'}\n    if(data[1]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel2 = {payload:'PowerSupply:' + tmp  + ':Roku'}\n    if(data[2]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel3 = {payload:'PowerSupply:' + tmp  + ':PiHub'}\n    if(data[3]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel4 = {payload:'PowerSupply:' + tmp  + ':Quadview'}\n    if(data[4]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel5 = {payload:'PowerSupply:' + tmp  + ':FR10BaseT'}\n    if(data[5]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel6 = {payload:'PowerSupply:' + tmp  + ':Harmony'}\n    if(data[6]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel7 = {payload:'PowerSupply:' + tmp  + ':BR10BaseT'}\n    if(data[7]['physical_state'] === true){tmp='On';}else{temp = 'Off';}\n        var channel8 = {payload:'PowerSupply:' + tmp  + ':Receiver'}\nreturn [channel1, channel2, channel3, channel4, channel5, channel6, channel7, channel8, null, null, null, null]\n}\nif (type.indexOf('meter')>=0){\n    tmp = data['buses.0.voltage']['value']; var channel9 = {payload:tmp};\n    tmp = data['buses.0.current']['value']; var channel10 = {payload:tmp};\n    tmp = data['buses.1.voltage']['value']; var channel11 = {payload:tmp};\n    tmp = data['buses.1.current']['value']; var channel12 = {payload:tmp};\n    return [null, null, null, null,null, null,null, null, channel9, channel10, channel11,channel12]\n}",
+        "outputs": 12,
+        "noerr": 0,
+        "x": 1240,
+        "y": 380,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "aa9d7dbc.8b537",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "TopicParse",
+        "func": "if (msg.topic !=='SWITCH'){\nmsg.payload = msg.topic+msg.payload\n\n}\n//console.log('MSG:' + msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 950,
+        "y": 800,
+        "wires": [
+            [
+                "a97fd4cd.4816e8"
+            ]
+        ]
+    },
+    {
+        "id": "e8c05710.af12c8",
+        "type": "function",
+        "z": "cd9b8e03.4524d",
+        "name": "StatusFeedback",
+        "func": " //Parse out RAV88 Responses to Make Sense\nvar ResponseType,bufferEnd = false;\ndata = msg.payload;\nInputMap = {'1':'Cable','2':'Roku2', '3':'Broken', '4':'Roku1','5':'xBoxOneS', '6':'BluRay','7':'PioneerBypassIn','8':'Quadview'};\nOutputMap = {'1':'Family Room','2':'Pioneer Bypass Out','3':'Theatre Room','4':'Quadview Input 4','5':'Quadview Input 3','6': 'Quadview Input 2','7': 'Quadview Input 1','8':'Unused'};\nmsg.filename = '';\n        \n//Determine response type\nif (data.indexOf('PleaseInput') >= 0) {ResponseType = 'Input';}\nif (data.indexOf('Pleasesend') >=0){ResponseType = 'Send';}\nif ((data.indexOf('AV:0') >= 0) | (data.indexOf('AV: ') >=0)) {ResponseType = 'Route';}\nif ((data.indexOf('EDID') >= 0)& data.indexOf('EDID') < 8){ResponseType = 'EDID';}\nif (data.indexOf('EDIDUpgradeOK!') >=0){ResponseType = 'EDIDUpgradeOK';}\nif (data.indexOf('EDIDUpgradeFail') >=0){ResponseType = 'EDIDUpgradeFail';}\nif (data.indexOf('Open.')>=0){ResponseType = 'Enabled';}\nif (data.indexOf('AV:OFF->')>=0){ResponseType = 'Disabled';}\nif (data.indexOf('Closed') >=0){ResponseType = 'Closed';}\n        //msg.payload=flow.get('ds');\ndatastore = flow.get('ds');\nswitch (ResponseType) {\n    case 'Input':\n        break;\n    case 'Send': //send the binary EDID file that I want\n        switch (flow.get('EDIDFile')){\n\n            case \"SonyProjector\":\n                msg.filename ='SonyProjectorEDIDFile';\n                flow.set('EDIDType','4K -> 60Hz 4:2:0')\n                break\n            case \"Quadview\":\n                msg.filename ='QuadviewEDIDFile';\n                flow.set('EDIDType','1080p -> 60Hz 4:4:4')\n                break\n                }\n                break;\n    case 'Route':\n        data = data.replace('AV: ', 'AV:');\n        if (data[4] > 0 && data[8] > 0 && data[4]<9 && data[8]<9){  //protection for bad data\n            datastore[OutputMap[data[8]]]= InputMap[data[4]];\n            flow.set('ds',datastore)\n        }else{\n            console.log('Route handler Failed: ' + data)\n        }\n        break;\n    case 'EDIDUpgradeOK':\n        datastore[flow.get('EDIDFileChan')] = flow.get('EDIDType')\n        break; //not used\n    case 'EDIDUpgradeFail':\n        datastore[flow.get('EDIDFileChan')] = '---Failed---';\n        break;\n    case 'Enabled':break;  //not used yet\n    case 'Disabled':break; // not used yet\n    case 'Closed':break;  //not used yet\n    default:console.log('RAV88:Unhandled Response: ' + data);break;\n    }//end switch (ResponseType)\n        \nmsg.payload = flow.get('ds');\nmapping = flow.get('ds');\nreturn msg\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 220,
+        "wires": [
+            [
+                "dca74c7c.47a64"
+            ]
+        ]
+    },
+    {
+        "id": "2100a67c.33a79a",
+        "type": "tcp request",
+        "z": "cd9b8e03.4524d",
+        "server": "192.168.1.17",
+        "port": "4001",
+        "out": "sit",
+        "splitc": " ",
+        "name": "",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "43e76622.a2e338"
+            ]
+        ]
+    },
+    {
+        "id": "b5b52eac.cd2bf",
+        "type": "file in",
+        "z": "cd9b8e03.4524d",
+        "name": "EDIDFile",
+        "filename": "/home/pi/.node-red/SonyProjectorEDID.bin",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "2100a67c.33a79a"
+            ]
+        ]
+    },
+    {
+        "id": "d20319e3.8260d8",
+        "type": "function",
+        "z": "cd9b8e03.4524d",
+        "name": "RAV88CommandTranslate",
+        "func": "data = msg.payload\nvar  parts = data.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nif (parts[0]=='RAV88'){\n    InputMap = {'Cable':'1','Roku1':'4','Roku2':'2','PiHub':'4','xBoxOneS':'5','BluRay':'6','PioneerBypassIn':'7','Quadview':'8'};\n    OutputMap = {'FamilyRoom':'1','PioneerBypassOut':'2','TheatreRoom':'3','QuadviewInput4':'4','QuadviewInput3':'5', 'QuadviewInput2':'6', 'QuadviewInput1':'7','Unused':'8'};\n    QVDeviceList = {'0':'Cable','1':'xBoxOneS','2':'Roku1','3':'Roku2'};\n    List=Object.keys(QVDeviceList);\n    DeviceIdx = List.length\n\n\n    switch (parts[1]){\n        case 'Route': //This generates the route table\n            command = InputMap[parts[2]]+'V' + OutputMap[parts[3]]+'.'; break;\n        case 'Status':\n            command = 'Status.'\n            break;\n        case 'UpgradeEDID':  //Sends the EDID Upgrade Request\n            command = 'EDIDUpgrade' + [InputMap[parts[2]]] +'.';\n            flow.set('EDIDFile',parts[3])\n            flow.set('EDIDFileChan', parts[2])\n            break;\n        case 'CycleQuadviewInput1':\n            for(idx=0;idx<List.length;idx++){ //find index of current activedevice\n                if (QVDeviceList[idx]==global.get('QVInput1Device')){DeviceIdx = idx}\n            }\n            \n            global.set('QVInput1Device',QVDeviceList[(DeviceIdx+1)%List.length]);\n            command  = InputMap[QVDeviceList[(DeviceIdx+1)%List.length]]+'V' + OutputMap['TheatreRoom']+'.';\n            break;\n        case 'CycleQuadviewInput2':\n            for(idx=0;idx<List.length;idx++){ //find index of current activedevice\n                if (QVDeviceList[idx]==global.get('QVInput2Device')){DeviceIdx = idx}\n            }\n            global.set('QVInput2Device',QVDeviceList[(DeviceIdx+1)%List.length]);\n             command  = InputMap[QVDeviceList[(DeviceIdx+1)%List.length]]+'V' + OutputMap['QuadviewInput2']+'.';\n            break;\n        case 'CycleQuadviewInput3':\n            for(idx=0;idx<List.length;idx++){ //find index of current activedevice\n                if (QVDeviceList[idx]==global.get('QVInput3Device')){DeviceIdx = idx}\n            }\n            \n            global.set('QVInput3Device',QVDeviceList[(DeviceIdx+1)%List.length]);\n             command  = InputMap[QVDeviceList[(DeviceIdx+1)%List.length]]+'V' + OutputMap['QuadviewInput3']+'.';\n            break;\n        case 'CycleQuadviewInput4':\n            for(idx=0;idx<List.length;idx++){ //find index of current activedevice\n                if (QVDeviceList[idx]==global.get('QVInput4Device')){DeviceIdx = idx}\n            }\n            global.set('QVInput4Device',QVDeviceList[(DeviceIdx+1)%List.length]);\n             command  = InputMap[QVDeviceList[(DeviceIdx+1)%List.length]]+'V' + OutputMap['QuadviewInput4']+'.';\n            break;    \n        default:\n            console.log('Command Not Recognized: ' + data);\n            break;\n    }\nmsg.payload = command;\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "2100a67c.33a79a"
+            ]
+        ]
+    },
+    {
+        "id": "e593e757.abd488",
+        "type": "function",
+        "z": "cd9b8e03.4524d",
+        "name": "Initialize",
+        "func": "var ds ={\n        \"Family Room\": \"Unknown\",\n        \"Pioneer Bypass Out\":\"Unknown\",\n        \"Theatre Room\":\"Unknown\",\n        'Quadview Input 1':\"Unknown\",\n        'Quadview Input 2':\"Unknown\",\n        'Quadview Input 3':\"Unknown\",\n        'Quadview Input 4':\"Unknown\",\n        'Unused':\"Unknown\",\n    }\n          \nflow.set('ds',ds)\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b60d40.003ee2c",
+        "type": "inject",
+        "z": "cd9b8e03.4524d",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 130,
+        "y": 480,
+        "wires": [
+            [
+                "e593e757.abd488"
+            ]
+        ]
+    },
+    {
+        "id": "43e76622.a2e338",
+        "type": "function",
+        "z": "cd9b8e03.4524d",
+        "name": "MessageParseStream",
+        "func": " //Parse out RAV88 Responses to Make Sense\nvar ResponseType,bufferEnd = false;\ndata = msg.payload;\n\n//console.log('raw data(' + data.length + ') =')\nfor(i=0;i<data.length;i++){\n   // console.log(String.fromCharCode(data[i]))\n    if (data[i]==13 && data[i+1] == 10){\n        msg.payload = context.get('replyout');\n        bufferEnd = true;\n        context.set('replyout','');\n        node.send(msg);\n        \n        }\n    else{\n        if ((String.fromCharCode(data[i]) !=' ') && (data[i]!=10) && (data[i]!=13)){\n            context.set('replyout',context.get('replyout') + String.fromCharCode(data[i]))   \n        }\n        bufferEnd = false;\n    }\n    \n}   \n    \n  ",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 220,
+        "wires": [
+            [
+                "e8c05710.af12c8"
+            ]
+        ]
+    },
+    {
+        "id": "dca74c7c.47a64",
+        "type": "function",
+        "z": "cd9b8e03.4524d",
+        "name": "Filter",
+        "func": "if (msg.filename !== ''){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "b5b52eac.cd2bf"
+            ]
+        ]
+    },
+    {
+        "id": "7b6a9756.b37b28",
+        "type": "subflow:cd9b8e03.4524d",
+        "z": "b618978a.87b048",
+        "name": "RAV88 Matrix Flow",
+        "x": 750,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ae51e90.9d9cc",
+        "type": "function",
+        "z": "b618978a.87b048",
+        "name": "PiHubSettings",
+        "func": "command = msg.payload\n\nvar ActiveDeviceList = {'0':'Cable','1':'xBoxOneS','2':'Roku1','3':'Roku2','4':'VPLVW285ES','5':'SCLX502'};\nvar parts = command.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nvar DeviceIdx = {};\n\nif (parts[0]==\"PiHub\") {\n    switch (parts[1]){\n        case 'CycleActiveDevice':\n            List=Object.keys(ActiveDeviceList);\n            DeviceIdx = List.length\n            for(idx=0;idx<List.length;idx++){ //find index of current activedevice\n                if (ActiveDeviceList[idx]==global.get('ActiveDevice')){DeviceIdx = idx}\n            }\n            var newActiveDevice = ActiveDeviceList[(DeviceIdx+1)%List.length];\n            global.set('ActiveDevice',newActiveDevice)\n            msg.payload = newActiveDevice;\n            break;\n    }\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1260,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d65feaa0.723558",
+        "type": "http request",
+        "z": "264e42a2.4aaf0e",
+        "name": "PowerSupply HTTP",
+        "method": "use",
+        "ret": "txt",
+        "url": "",
+        "tls": "",
+        "x": 1950,
+        "y": 720,
+        "wires": [
+            [
+                "7b902ac7.18e9e4"
+            ]
+        ]
+    },
+    {
+        "id": "6134fe9d.f6b1f",
+        "type": "json",
+        "z": "264e42a2.4aaf0e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1030,
+        "y": 380,
+        "wires": [
+            [
+                "167cff68.0ad611"
+            ]
+        ]
+    },
+    {
+        "id": "7b902ac7.18e9e4",
+        "type": "function",
+        "z": "264e42a2.4aaf0e",
+        "name": "Check JSON",
+        "func": "if (msg.headers['content-type'] == 'application/json;charset=\"UTF-8\"'){\n    return msg\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 990,
+        "y": 800,
+        "wires": [
+            [
+                "6134fe9d.f6b1f"
+            ]
+        ]
+    },
+    {
+        "id": "cf39df90.9b0c9",
+        "type": "function",
+        "z": "b7d527cc.231d68",
+        "name": "Quadview Generate Coordinates",
+        "func": "data = msg.payload\nLayout = {}\nName = 'Standard1Big3Small'\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=1;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nvar multiple = 40;\nLayout[Name]['conf']['lout']['ch1']['t'] = 9*multiple/2;  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = 16*multiple;   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = 16*2*multiple;  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = 9*2*multiple;  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] =0;\nLayout[Name]['conf']['lout']['ch2']['l'] = 0;\nLayout[Name]['conf']['lout']['ch2']['w'] = 16*multiple;\nLayout[Name]['conf']['lout']['ch2']['h'] = 9*multiple;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = 9*multiple;\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = 16*multiple;\nLayout[Name]['conf']['lout']['ch3']['h'] = 9*multiple;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = 9*multiple*2;\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = 16*multiple;\nLayout[Name]['conf']['lout']['ch4']['h'] = 9*multiple;\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\n\n\nName = 'Standard1Big2Small';\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=2;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nvar multiple = 40;\nLayout[Name]['conf']['lout']['ch1']['t'] = 9*50/2;  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = 16*50;   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = 16*2*70;  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = 9*70;  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] =9*10;\nLayout[Name]['conf']['lout']['ch2']['l'] = 0;\nLayout[Name]['conf']['lout']['ch2']['w'] = 16*50;\nLayout[Name]['conf']['lout']['ch2']['h'] = 9*50;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = 9*60;\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = 16*50;\nLayout[Name]['conf']['lout']['ch3']['h'] = 9*50;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = 9*40*2;\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = 16*40;\nLayout[Name]['conf']['lout']['ch4']['h'] = 9*40;\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 0              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\n\nName = 'Standard2Equal';\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=3;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nvar multiple = 40;\nLayout[Name]['conf']['lout']['ch1']['t'] = 9*60/3;  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = 0;   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = 16*60;  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = 9*60;  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] =9*60/3;\nLayout[Name]['conf']['lout']['ch2']['l'] = 16*60;\nLayout[Name]['conf']['lout']['ch2']['w'] = 16*60;\nLayout[Name]['conf']['lout']['ch2']['h'] = 9*60;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = 9*60;\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = 16*50;\nLayout[Name]['conf']['lout']['ch3']['h'] = 9*50;\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 0              //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = 9*40*2;\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = 16*40;\nLayout[Name]['conf']['lout']['ch4']['h'] = 9*40;\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 0              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\n\nName = 'CinemaScope1Big3Small';\nvar vcompress = 1.32;\nvar topoffset = 1080*(1-1/vcompress)/2\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=4;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nLayout[Name]['conf']['lout']['ch1']['t'] = Math.round(topoffset);  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = Math.round((1-1/vcompress)*1920);   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = Math.round(1/vcompress*1920);  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = Math.round(1080/vcompress);  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] = Math.round(topoffset);\nLayout[Name]['conf']['lout']['ch2']['l'] = 0;\nLayout[Name]['conf']['lout']['ch2']['w'] = Math.round((1-1/vcompress)*1920);\nLayout[Name]['conf']['lout']['ch2']['h'] = Math.round(1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = Math.round(topoffset+1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = Math.round((1-1/vcompress)*1920);\nLayout[Name]['conf']['lout']['ch3']['h'] = Math.round(1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = Math.round(topoffset+1080*2/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = Math.round((1-1/vcompress)*1920);\nLayout[Name]['conf']['lout']['ch4']['h'] = Math.round(1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\n\nName =  'CinamaScope1Big2Small';\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=5;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nLayout[Name]['conf']['lout']['ch1']['t'] = Math.round(1080/vcompress/4);  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = Math.round((1-1/vcompress/2)*1920);   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = Math.round(1/vcompress/2*1920);  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = Math.round((1-1/vcompress/2)*1080);  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] = Math.round(topoffset);\nLayout[Name]['conf']['lout']['ch2']['l'] = 0;\nLayout[Name]['conf']['lout']['ch2']['w'] = Math.round((1-1/vcompress/2)*1920);\nLayout[Name]['conf']['lout']['ch2']['h'] = Math.round(1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = Math.round(topoffset+1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = Math.round((1-1/vcompress/2)*1920);\nLayout[Name]['conf']['lout']['ch3']['h'] = Math.round(1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = Math.round(topoffset+1080*2/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = Math.round((1-1/vcompress)*1920);\nLayout[Name]['conf']['lout']['ch4']['h'] = Math.round(1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 0              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\n\nName = 'CinamaScope2Equal';\nLayout[Name]={};\nLayout[Name]['conf']={};\nLayout[Name]['conf']['lout'] ={}\nLayout[Name]['conf']['lout']['id']=6;\nLayout[Name]['conf']['lout']['Name'] = Name;\nLayout[Name]['conf']['lout']['ch1'] ={};\nLayout[Name]['conf']['lout']['ch1']['t'] = Math.round(1080/4);  //top corner resolution\nLayout[Name]['conf']['lout']['ch1']['l'] = 0;   //left corner resolution\nLayout[Name]['conf']['lout']['ch1']['w'] = 1920/2;  //width\nLayout[Name]['conf']['lout']['ch1']['h'] = Math.round(1080/2/vcompress);  //height\nLayout[Name]['conf']['lout']['ch1']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch1']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch1']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch1']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch1']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch1']['nm'] = 'Channel 1';\nLayout[Name]['conf']['lout']['ch1']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch1']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch1']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch1']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch1']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch1']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch1']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch1']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch1']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch1']['ct'] = Layout[Name]['conf']['lout']['ch1']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch1']['cl'] = Layout[Name]['conf']['lout']['ch1']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch1']['cw'] = Layout[Name]['conf']['lout']['ch1']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch1']['ch'] = Layout[Name]['conf']['lout']['ch1']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2'] ={};\nLayout[Name]['conf']['lout']['ch2']['t'] = 1080/4;\nLayout[Name]['conf']['lout']['ch2']['l'] = 0;\nLayout[Name]['conf']['lout']['ch2']['w'] = 1920/2;\nLayout[Name]['conf']['lout']['ch2']['h'] = Math.round(1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch2']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch2']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch2']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch2']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch2']['nm'] = 'Channel 2';\nLayout[Name]['conf']['lout']['ch2']['en'] = 1              //enable\nLayout[Name]['conf']['lout']['ch2']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch2']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch2']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch2']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch2']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch2']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch2']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch2']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch2']['ct'] = Layout[Name]['conf']['lout']['ch2']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch2']['cl'] = Layout[Name]['conf']['lout']['ch2']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch2']['cw'] = Layout[Name]['conf']['lout']['ch2']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch2']['ch'] = Layout[Name]['conf']['lout']['ch2']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch2']['en'] = 1;\nLayout[Name]['conf']['lout']['ch3'] ={};\nLayout[Name]['conf']['lout']['ch3']['t'] = Math.round(topoffset+1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch3']['l'] = 0;\nLayout[Name]['conf']['lout']['ch3']['w'] = Math.round((1-1/vcompress/2)*1920);\nLayout[Name]['conf']['lout']['ch3']['h'] = Math.round(1080/2/vcompress);\nLayout[Name]['conf']['lout']['ch2']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch3']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch3']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch3']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch3']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch3']['nm'] = 'Channel 3';\nLayout[Name]['conf']['lout']['ch3']['en'] = 0;           //enable\nLayout[Name]['conf']['lout']['ch3']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch3']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch3']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch3']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch3']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch3']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch3']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch3']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch3']['ct'] = Layout[Name]['conf']['lout']['ch3']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch3']['cl'] = Layout[Name]['conf']['lout']['ch3']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch3']['cw'] = Layout[Name]['conf']['lout']['ch3']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch3']['ch'] = Layout[Name]['conf']['lout']['ch3']['h'];  //not sure left\nLayout[Name]['conf']['lout']['ch4'] ={};\nLayout[Name]['conf']['lout']['ch4']['t'] = Math.round(topoffset+1080*2/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['l'] = 0;\nLayout[Name]['conf']['lout']['ch4']['w'] = Math.round((1-1/vcompress)*1920);\nLayout[Name]['conf']['lout']['ch4']['h'] = Math.round(1080/3/vcompress);\nLayout[Name]['conf']['lout']['ch4']['ar'] = 1;             //?\nLayout[Name]['conf']['lout']['ch4']['vl'] = 0;             //volume left\nLayout[Name]['conf']['lout']['ch4']['vr'] = 0;             //volume right\nLayout[Name]['conf']['lout']['ch4']['tr'] = 64;            //?\nLayout[Name]['conf']['lout']['ch4']['umd'] = 0;            //?\nLayout[Name]['conf']['lout']['ch4']['nm'] = 'Channel 4';\nLayout[Name]['conf']['lout']['ch4']['en'] = 0              //enable\nLayout[Name]['conf']['lout']['ch4']['bc'] = 0;             //border color\nLayout[Name]['conf']['lout']['ch4']['bw'] = 0;             //border width\nLayout[Name]['conf']['lout']['ch4']['au'] = 0;             //audio?\nLayout[Name]['conf']['lout']['ch4']['it'] = 0;             //input top corner position\nLayout[Name]['conf']['lout']['ch4']['il'] = 0;             //input left corner position\nLayout[Name]['conf']['lout']['ch4']['iw'] = 1920;             //Input width?\nLayout[Name]['conf']['lout']['ch4']['ih'] = 1080;          //Input height\nLayout[Name]['conf']['lout']['ch4']['iz'] = 100;           //input zoom\nLayout[Name]['conf']['lout']['ch4']['ct'] = Layout[Name]['conf']['lout']['ch4']['t'];  //not sure top\nLayout[Name]['conf']['lout']['ch4']['cl'] = Layout[Name]['conf']['lout']['ch4']['l'];  // not sure left\nLayout[Name]['conf']['lout']['ch4']['cw'] = Layout[Name]['conf']['lout']['ch4']['w'];  // not sure right\nLayout[Name]['conf']['lout']['ch4']['ch'] = Layout[Name]['conf']['lout']['ch4']['h'];  //not sure left\nLayout[Name]['conf']['lout']['cord'] = {}\nLayout[Name]['conf']['lout']['cord']['p1'] = 2;  //not sure\nLayout[Name]['conf']['lout']['cord']['p2'] = 1;  //not sure\\nLayout[Name]['conf']['lout']['cord']['p3'] = 1;  //not sure\nLayout[Name]['conf']['lout']['cord']['p4'] = 3;  //not sure\\nLayout[Name]['conf']['lout']['cord']['p5'] = 4;  //not sure\nLayout[Name]['conf']['lout']['logo'] = {};\nLayout[Name]['conf']['lout']['logo']['t'] = 0;\nLayout[Name]['conf']['lout']['logo']['l'] = 0;\nLayout[Name]['conf']['lout']['logo']['w'] = 0;\nLayout[Name]['conf']['lout']['logo']['h'] = 0;\nLayout[Name]['conf']['lout']['sn'] = 0; \nLayout[Name]['conf']['lout']['r'] = 10;\nLayout[Name]['conf']['lout']['c'] = 10;\nLayout[Name]['conf']['lout']['en'] = 1;\nLayout[Name]['conf']['lout']['res'] = {}\nLayout[Name]['conf']['lout']['res']['w'] = 1920;\nLayout[Name]['conf']['lout']['res']['h'] = 1080;\nflow.set('Layouts',Layout)\nmsg.payload= Layout;\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c83d84a4.a108d8",
+        "type": "inject",
+        "z": "b7d527cc.231d68",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "cf39df90.9b0c9"
+            ]
+        ]
+    },
+    {
+        "id": "1e6613a7.926fec",
+        "type": "tcp request",
+        "z": "b7d527cc.231d68",
+        "server": "192.168.1.30",
+        "port": "4001",
+        "out": "sit",
+        "splitc": " ",
+        "name": "Quadview TCP",
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "bade80cd.3e7f5"
+            ]
+        ]
+    },
+    {
+        "id": "c5d28890.ab6528",
+        "type": "function",
+        "z": "b7d527cc.231d68",
+        "name": "Quadview Command Parse",
+        "func": "data = msg.payload\nvar  parts = data.toString().split(/[\\\\s\\\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nmsg = {};\nif (parts[0] == 'Quadview'){\n    Layouts = flow.get('Layouts')\n    msg.method ='POST'\n    switch (parts[1]){\n        case 'Login':\n            msg.url = '192.168.1.30/goform/login';\n            msg.headers = {'Content-Type':'application/x-www-form-urlencoded'}\n            msg.payload = {'username':'root','password':'nti','rand':Math.random()}\n            node.send([msg, null]);\n            break;\n        case 'SetCustomMode':\n            msg.url = '192.168.1.30/goform/saveSelMode'\n            msg.headers = {'Content-Type':'application/x-www-form-urlencoded'}\n            msg.payload = JSON.stringify({'sel_mode':'3','fscreen_ip':'0'});\n            msg.cookie = flow.get('cookie');\n           node.send([msg, null]);\n            break;\n        case 'Standard1Big3Small':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        case 'Standard1Big2Small':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        case 'Standard2Equal':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        case 'CinemaScope1Big3Small':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        case 'CinamaScope1Big2Small':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        case 'CinamaScope2Equal':\n            msg.url = '192.168.1.30/goform/saveLayout'\n            msg.headers = {'Content-Type':'application/json'};\n            msg.cookie = flow.get('cookie')\n            msg.payload = Layouts[parts[1]];\n            node.send([null, msg]);\n            break\n        }\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "1e6613a7.926fec"
+            ],
+            [
+                "9ef6ebdb.c25d38"
+            ]
+        ]
+    },
+    {
+        "id": "bade80cd.3e7f5",
+        "type": "function",
+        "z": "b7d527cc.231d68",
+        "name": "Check Quadview Connected",
+        "func": "if (msg.statusCode == 'EHOSTUNREACH'){\n    \n}else{\n    node.send(msg)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 200,
+        "wires": [
+            [
+                "2f704c8b.8a4cc4"
+            ]
+        ]
+    },
+    {
+        "id": "2f704c8b.8a4cc4",
+        "type": "json",
+        "z": "b7d527cc.231d68",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1150,
+        "y": 200,
+        "wires": [
+            [
+                "91eadf4c.8062"
+            ]
+        ]
+    },
+    {
+        "id": "91eadf4c.8062",
+        "type": "function",
+        "z": "b7d527cc.231d68",
+        "name": "Quadview Set Cookie",
+        "func": "data = msg.payload;\nflow.set('cookie',data['cookie'])\nflow.set('loginsuccess',data['success'])\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1340,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ef6ebdb.c25d38",
+        "type": "xml",
+        "z": "b7d527cc.231d68",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abf9d110.61312",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Token from Refresh",
+        "func": "RefreshToken = global.get('WinkRefreshToken')\n\nbody = {\n        'client_id':'2vPQkUHzjBAC3LxYipCOi_bPqKNqVaY8',\n        'client_secret': '49LlTCbwh0rD_BId9zoHmS1sSXWUPrE-',\n        'grant_type': 'refresh_token',\n        'refresh_token': RefreshToken\n}\nmsg.payload = JSON.stringify(body)\nmsg.headers = {'Content-Type':'application/json'};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "4443f20a.aa834c"
+            ]
+        ]
+    },
+    {
+        "id": "15b2c43.e610a3c",
+        "type": "inject",
+        "z": "9fe261d.b4804a",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "2700",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "abf9d110.61312"
+            ]
+        ]
+    },
+    {
+        "id": "bed65d07.d0c6d",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Refused?",
+        "func": "if (msg.statusCode ==200){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 540,
+        "wires": [
+            [
+                "f803826b.db5bd"
+            ]
+        ]
+    },
+    {
+        "id": "9b949e75.921bf",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Refused?",
+        "func": "if (msg.statusCode ==200){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "15ac3ed4.d19951"
+            ]
+        ]
+    },
+    {
+        "id": "5a977fe0.72d85",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Refused?",
+        "func": "if (msg.statusCode ==200){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 680,
+        "wires": [
+            [
+                "ec46f258.e2e2e"
+            ]
+        ]
+    },
+    {
+        "id": "77992d2f.70eb64",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Refused?",
+        "func": "if (msg.statusCode ==200){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "cc5d0fe3.7f8e7"
+            ]
+        ]
+    },
+    {
+        "id": "2ffd68fd.44d3e8",
+        "type": "function",
+        "z": "9fe261d.b4804a",
+        "name": "Refused?",
+        "func": "if (msg.statusCode ==200){\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 740,
+        "wires": [
+            [
+                "489cd51b.e3ae0c"
+            ]
+        ]
+    },
+    {
+        "id": "8e7c3f7e.068c8",
+        "type": "subflow:9fe261d.b4804a",
+        "z": "599e29f5.447208",
+        "name": "Wink Flow",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74d07d6f.418f54",
+        "type": "function",
+        "z": "2efc9726.2c37e8",
+        "name": "Debuffer",
+        "func": "data = msg.payload;\n//console.log('SonyBuffer length = ' + data.length)\nfor (idx=0;idx<data.length;idx=idx+12){\n    \n   // console.log(idx)\n    msg.payload = data.slice(idx,idx+12)\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "d5a9e99.586ec18"
+            ]
+        ]
+    },
+    {
+        "id": "8aa3646a.20e8f8",
+        "type": "subflow:fcb0a14.a274f6",
+        "z": "b618978a.87b048",
+        "name": "Telnet Interface",
+        "env": [],
+        "x": 760,
+        "y": 460,
+        "wires": [
+            [
+                "2d677e54.4d97e2"
+            ],
+            [
+                "fa98259.7eb34d8"
+            ],
+            [
+                "1d2d8fe3.dc6de"
+            ]
+        ]
+    },
+    {
+        "id": "aceecfbc.08b16",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "Harmony 2 Key Decode",
+        "func": "var timenow = new Date().getTime();\nMapLookup= flow.get('Roku2ButtonMap')\nWhichHarmony = 'Unknown'\nCurrentActivity = global.get('CurrentActivity')\nmsg.topic = 'Key Macro'\nipaddr = msg.req.params.address\nparts = ipaddr.toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\nswitch (parts[3]){\n    case '4':WhichHarmony = 'Theatre'; break;\n    case '2':WhichHarmony = 'FamilyRoom'; break;\n}\ndelta = timenow - context.get('LastReceivedTimeStamp')||0\ncontext.set('LastReceivedTimeStamp',timenow)  \n\n\nif (context.get(\"Waiting\")){\n    msg.payload = {'Keypress':MapLookup[context.get('First')][msg.req.params.id],'HubID':WhichHarmony,'ActivityName':CurrentActivity[WhichHarmony]}\n    context.set('Waiting',false)\n    node.send(msg)\n}else{\n    switch (msg.req.params.id){\n        case 'BackSpace':\n            context.set('First',msg.req.params.id)\n            context.set('Waiting',true)\n            break;\n        case 'InstantReplay':\n            context.set('First',msg.req.params.id)\n            context.set('Waiting',true)\n            break;\n        case 'InputUSB':\n            context.set('First',msg.req.params.id)\n            context.set('Waiting',true)\n            break;\n        case 'PowerOff':\n            break;\n        default:\n            msg.payload = {'Keypress':MapLookup[msg.req.params.id],'HubID':WhichHarmony,'ActivityName':CurrentActivity[WhichHarmony]}\n            context.set(\"Waiting\",false)\n            node.send(msg)\n            break;\n    }\n}\n\n\n\n\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 690,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4181810.c59a08",
+        "type": "http response",
+        "z": "38a43e3a.cd9272",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "text/plain"
+        },
+        "x": 640,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "32897b74.9c6014",
+        "type": "function",
+        "z": "1ec6843.1d0217c",
+        "name": "Activities",
+        "func": " data = msg.payload\n Activities = flow.get('Activities')\n \n switch (msg.topic){\n     case 'Activity Change':\n        switch (data.status){\n            case 1:\n                msg.payload = Activities[data['HubID']][data['ActivityName']]['Startup']\n                node.send(msg)\n                break;\n            default:\n                msg.payload = Activities[data['HubID']][data['ActivityName']]['Shutdown']\n                node.send(msg)\n                break;\n        }\n        break\n    case 'Key Macro':\n        msg.payload = Activities[data.HubID][data['ActivityName']]['Key Macro'][data.Keypress]\n        node.send(msg)\n        break;\n    }\n \nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "9d07626d.3c8c6"
+            ]
+        ]
+    },
+    {
+        "id": "ca6ceb11.255b38",
+        "type": "subflow:38a43e3a.cd9272",
+        "z": "b618978a.87b048",
+        "name": "",
+        "env": [],
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "35f2ab50.82e2a4",
+                "57ea8e54.01246"
+            ]
+        ],
+        "outputLabels": [
+            "Decoded Keys"
+        ]
+    },
+    {
+        "id": "57ea8e54.01246",
+        "type": "subflow:1ec6843.1d0217c",
+        "z": "b618978a.87b048",
+        "name": "",
+        "env": [],
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "13bf3333.f0c0bd",
+                "e50228eb.b46858"
+            ]
+        ]
+    },
+    {
+        "id": "8fab7fb7.95f82",
+        "type": "function",
+        "z": "681e9b18.724a84",
+        "name": "iPadParse",
+        "func": "UpstairsActivityLU = {\"Roku\":\"37008102\",\"Cable\":\"30296049\",\"xBoxOneS\":\"37020733\",\"Quadview\":\"30296040\",\"Shutdown\":\"-1\"}\nDownstairsActivityLU = {\"Roku\":\"37008610\",\"Cable\":\"37008607\",\"Shutdown\":\"-1\"}\ndata = msg.payload\n\nvar  parts = data[\"Command\"].toString().split(/[\\s\\.=:]/).filter(function (item) { return item !== ''; });  //parse my command string\n\nswitch (parts[0]){\n    case \"Macro\":\n            msg.payload = parts[2];  //the 3rd part is the MacroName\n            return [msg, null,null,null];\n    case \"Device\":\n        newstring = ''\n        //rebuild device command from parts\n        for (k=2;k<parts.length;k++){\n            newstring = newstring + parts[k];    \n        }\n        msg.payload = {0:newstring};  //put into json format\n        return[null,msg,null,null];\n    case \"Activity\":\n        switch (parts[1]){\n            case \"Upstairs\":\n                msg.activity = UpstairsActivityLU[parts[2]]; \n                return [null, null, msg, null];\n            case \"Downstairs\":\n                msg.activity = DownstairsActivityLU[parts[2]];\n                return [null, null, null, msg];\n            default:\n                break;\n        }\n        break;\n\n    default:\n        break;\n    \n}\n//outputs 1-> Macros, 2-> DeviceCommand 3-> Upstairs Harmony Hub, 4-> Downstairs Harmony Hub\n    ",
+        "outputs": 4,
+        "noerr": 0,
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c27b9eb.ebc4d6",
+        "type": "subflow:b7d527cc.231d68",
+        "z": "b618978a.87b048",
+        "name": "",
+        "x": 720,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30aaf8e6.5a83d8",
+        "type": "subflow:264e42a2.4aaf0e",
+        "z": "b618978a.87b048",
+        "name": "Power Supply Flow",
+        "x": 750,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14c7fde7.efb7e2",
+        "type": "http in",
+        "z": "681e9b18.724a84",
+        "name": "Message from Ipad",
+        "url": "/fromIpad/",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "8fab7fb7.95f82",
+                "50703991.cbc858"
+            ]
+        ]
+    },
+    {
+        "id": "50703991.cbc858",
+        "type": "http response",
+        "z": "681e9b18.724a84",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "text/plain"
+        },
+        "x": 420,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9669c920.f64f08",
+        "type": "subflow:681e9b18.724a84",
+        "z": "b618978a.87b048",
+        "name": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "57ea8e54.01246"
+            ]
+        ]
+    },
+    {
+        "id": "a3e7aea9.466ac",
+        "type": "inject",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 150,
+        "y": 40,
+        "wires": [
+            [
+                "2445851f.5e6eea"
+            ]
+        ]
+    },
+    {
+        "id": "2445851f.5e6eea",
+        "type": "readdir",
+        "z": "65545df2.7c5e34",
+        "name": "Device List",
+        "dir": "/home/pi/Harmony/DeviceDataBase/",
+        "as": "single",
+        "recursive": false,
+        "outproperty": "options",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "ff22ac2f.7df2c",
+                "ecaae603.3e3658"
+            ]
+        ]
+    },
+    {
+        "id": "ecaae603.3e3658",
+        "type": "function",
+        "z": "65545df2.7c5e34",
+        "name": "Read All Devices",
+        "func": "Devices = {}\nglobal.set('Devices',Devices)\ndata = msg.options\nfor (idx = 0;idx < data.length;idx++){\n    msg.filename = data[idx]\n    node.send(msg)\n    }\n\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "d8845d4f.c01d1",
+                "750ee6c5.7831d8"
+            ]
+        ]
+    },
+    {
+        "id": "d8845d4f.c01d1",
+        "type": "file in",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "ee5cffb0.33b75"
+            ]
+        ]
+    },
+    {
+        "id": "ee5cffb0.33b75",
+        "type": "json",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "bf8a09af.bae428",
+                "22d7f33b.0534ec"
+            ]
+        ]
+    },
+    {
+        "id": "bf8a09af.bae428",
+        "type": "debug",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 350,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "489ca4e.ea5b45c",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "modify xml",
+        "func": "data = msg.payload\ndata = data.replace(\"<root>\",\"<device-info>\")\ndata = data.replace(\"</root>\",\"</device-info>\")\n\nmsg.payload = data\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 730,
+        "y": 420,
+        "wires": [
+            [
+                "afdf8f3b.9677",
+                "f49f307d.c2ec7"
+            ]
+        ]
+    },
+    {
+        "id": "80175f7b.14ce9",
+        "type": "roku-emulator-for-Harmony",
+        "z": "dc466c0e.9afc3",
+        "name": "Harmony SSDP Module",
+        "x": 430,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "54d3f39d.4946cc",
+        "type": "inject",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 200,
+        "y": 700,
+        "wires": [
+            [
+                "80175f7b.14ce9"
+            ]
+        ]
+    },
+    {
+        "id": "1714dac5.887c95",
+        "type": "xml",
+        "z": "dc466c0e.9afc3",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "95fc0c29.7574a"
+            ]
+        ]
+    },
+    {
+        "id": "95fc0c29.7574a",
+        "type": "function",
+        "z": "dc466c0e.9afc3",
+        "name": "modify xml",
+        "func": "data = msg.payload\nversion=[]\nversion[1] = \"1.9.31\"\n\nApps = flow.get('Apps')\n\n\ndata = data.replace(\"<root>\",\"<apps>\")\ndata = data.replace(\"</root>\",\"</apps>\")\nkey = Object.keys(Apps)\nfor (idx=0;idx<key.length;idx++){\n    input = '<app' + idx\n    data = data.replace(input,'<app id=\\\"' + Apps[key[idx]].id + '\\\" type =\\\"' + Apps[key[idx]].type + '\\\" version=\\\"' + Apps[key[idx]].version + '\\\" subtype=\\\"'+Apps[key[idx]].subtype + '\\\" ')\n    input = '</app' + idx\n    data = data.replace(input,\"</app\")\n}\n\n\nmsg.payload = data\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 730,
+        "y": 520,
+        "wires": [
+            [
+                "6ef4c5ea.d3757c"
+            ]
+        ]
+    },
+    {
+        "id": "dfe46aa3.92f428",
+        "type": "debug",
+        "z": "dc466c0e.9afc3",
+        "name": "Request For DevInfo",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "x": 440,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "35f2ab50.82e2a4",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Harmony Interface",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "x": 410,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "750ee6c5.7831d8",
+        "type": "debug",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 330,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "23493788.5093e8",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "Raw Keys",
+        "func": "test = msg.req.params.id\nmsg.payload = test\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 600,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13bf3333.f0c0bd",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Commands",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2a55ecad.a6d8d4",
+        "type": "file in",
+        "z": "38a43e3a.cd9272",
+        "name": "",
+        "filename": "/home/pi/Harmony/ButtonDataBase/RokuButtonMap.json",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "f10e1336.26fc1"
+            ]
+        ]
+    },
+    {
+        "id": "f10e1336.26fc1",
+        "type": "json",
+        "z": "38a43e3a.cd9272",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 120,
+        "wires": [
+            [
+                "5b0e1a3e.e45364"
+            ]
+        ]
+    },
+    {
+        "id": "5b0e1a3e.e45364",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "Set Flow",
+        "func": "flow.set('Roku2ButtonMap',msg.payload)\nglobal.set('RokuMap',msg.payload)",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 820,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "1c4676.38e0d98b",
+        "type": "readdir",
+        "z": "1ec6843.1d0217c",
+        "name": "Activity List",
+        "dir": "/home/pi/Harmony/ActivityDataBase/",
+        "as": "single",
+        "recursive": false,
+        "outproperty": "options",
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "85411f7f.27692"
+            ]
+        ]
+    },
+    {
+        "id": "85411f7f.27692",
+        "type": "function",
+        "z": "1ec6843.1d0217c",
+        "name": "Read All Activities",
+        "func": "data = msg.options\nfor (idx = 0;idx < data.length;idx++){\n    msg.filename = data[idx]\n    node.send(msg)\n    }\n\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 60,
+        "wires": [
+            [
+                "4103ee8a.60ee5"
+            ]
+        ]
+    },
+    {
+        "id": "4103ee8a.60ee5",
+        "type": "file in",
+        "z": "1ec6843.1d0217c",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 830,
+        "y": 60,
+        "wires": [
+            [
+                "7a99f67d.d6bca8"
+            ]
+        ]
+    },
+    {
+        "id": "7a99f67d.d6bca8",
+        "type": "json",
+        "z": "1ec6843.1d0217c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 970,
+        "y": 60,
+        "wires": [
+            [
+                "fc3fd0f1.53767"
+            ]
+        ]
+    },
+    {
+        "id": "fc3fd0f1.53767",
+        "type": "function",
+        "z": "1ec6843.1d0217c",
+        "name": "Set Flow",
+        "func": "data = msg.payload\nActivities = flow.get('Activities')||{}\nif (!(data['HubName'] in Activities)){ Activities[data['HubName']] = {}}\n    \nActivities[data['HubName']][data['Activity Name']] = {};\nActivities[data['HubName']][data['Activity Name']]['Startup'] = data['Startup']\nActivities[data['HubName']][data['Activity Name']]['Shutdown'] = data['Shutdown']\nActivities[data['HubName']][data['Activity Name']]['Key Macro'] = data['Key Macro']\nActivities[data['HubName']][data['Activity Name']]['TouchScreen Macro'] = data['TouchScreen Macro']\n\nflow.set('Activities',Activities)\nglobal.set('Activities',Activities)\nmsg.payload = {}\nmsg.payload = Activities\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1140,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45565dd6.db96b4",
+        "type": "inject",
+        "z": "b618978a.87b048",
+        "name": "",
+        "topic": "INIT",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "57ea8e54.01246",
+                "ca6ceb11.255b38"
+            ]
+        ]
+    },
+    {
+        "id": "bec21633.7ee988",
+        "type": "switch",
+        "z": "1ec6843.1d0217c",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "INIT",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Activity Change",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Key Macro",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "1c4676.38e0d98b"
+            ],
+            [
+                "32897b74.9c6014"
+            ],
+            [
+                "32897b74.9c6014"
+            ]
+        ]
+    },
+    {
+        "id": "5467b2ab.21815c",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "ActivityDecoder",
+        "func": "data = msg.payload\nActivityLookup = flow.get('ActivityLookup')\nCurrentActivity = global.get('CurrentActivity')\n\nswitch(data.activity){\n    case '-1':\n        data.ActivityName = CurrentActivity[data.HubID]\n        data.status = -1\n        break\n    default:\n        CurrentActivity[data.HubID] = 'Shutdown'\n        tmp = ActivityLookup[data['activity']]||{'Activity':data['activity']}\n        data.ActivityName = tmp['Activity']\n        CurrentActivity[data.HubID] = data.ActivityName\n        break\n    }\n\nmsg.payload = data;\nmsg.topic = 'Activity Change'\n\n\n\nglobal.set('CurrentActivity',CurrentActivity)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d07626d.3c8c6",
+        "type": "function",
+        "z": "1ec6843.1d0217c",
+        "name": "IterateCommandList",
+        "func": "Length = Object.keys(msg.payload);\nDevices = global.get('Devices')\nList = msg.payload;\ntimeoutObj = {};\nTotalDelay = 0;\nidx = 0;\nfor (idx = 0;idx < Length.length;idx++){\n    msg.payload  = List[idx];\n    msg.device = List[idx]['Device']\n    msg.command = Devices[msg.device]['Commands'][List[idx]['Command']]\n    msg.protocol = Devices[msg.device]['Interface']['Protocol']\n    node.send(msg)\n}\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3be483ee.b689dc",
+        "type": "HWS observe",
+        "z": "38a43e3a.cd9272",
+        "name": "Family Room",
+        "server": "e9d71a40.782598",
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "6d9f45a1.f531bc"
+            ]
+        ]
+    },
+    {
+        "id": "9ff52b88.3de618",
+        "type": "HWS observe",
+        "z": "38a43e3a.cd9272",
+        "name": "Theatre Room",
+        "server": "675d78ae.10da88",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "43cd664f.ca4688"
+            ]
+        ]
+    },
+    {
+        "id": "22d7f33b.0534ec",
+        "type": "function",
+        "z": "65545df2.7c5e34",
+        "name": "Store Device",
+        "func": "data = msg.payload\nDevices = global.get('Devices')||{}\nDevKeys = Object.keys(data['Friendly Names'])\nfor (i=0;i<DevKeys.length;i++){\n    name = data['Friendly Names'][i]\n    \n    Devices[name] = {}\n    Devices[name]['Interface'] = {}\n    Devices[name]['Interface'] = data['Interface']\n    Devices[name]['Commands'] = data['Commands']\n    Devices[name]['Feedbacks'] = data['Feedbacks']\n}\n\nfor (idx=0;idx<DevKeys.length;idx++){\n    name = data['Friendly Names'][idx]\n    address = data['Interface']['Addresses'][idx]\n    Devices[name]['Address'] = address\n}\n    global.set('Devices',Devices)\n    msg.payload = Devices\n    node.send(msg)\nreturn\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "adaf7b35.d03498"
+            ]
+        ]
+    },
+    {
+        "id": "adaf7b35.d03498",
+        "type": "debug",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 350,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fa98259.7eb34d8",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Telnet Message",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "x": 960,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "2d677e54.4d97e2",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Telnet Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "x": 970,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d674c4f4.964e68",
+        "type": "file in",
+        "z": "38a43e3a.cd9272",
+        "name": "",
+        "filename": "/home/pi/Harmony/ActivityDataBase/ActivityLookup.json",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "9da86a92.72a738"
+            ]
+        ]
+    },
+    {
+        "id": "9da86a92.72a738",
+        "type": "json",
+        "z": "38a43e3a.cd9272",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 160,
+        "wires": [
+            [
+                "4bd784fd.e696dc"
+            ]
+        ]
+    },
+    {
+        "id": "4bd784fd.e696dc",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "Set Flow",
+        "func": "flow.set('ActivityLookup',msg.payload)\nCurrentActivity = {}\nCurrentActivity['Family Room'] = 'Shutdown';\nCurrentActivity['Theatre'] = 'Shutdown';\nglobal.set('CurrentActivity',CurrentActivity)\nreturn",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 820,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6d9f45a1.f531bc",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "HubID",
+        "func": "\ndata = msg.payload\n\nif ((data.status == '1')||(data.status=='3')){\n    //if ((data.status == '1')||(data.status=='3')||(data.activity == \"-1\")){\n    data.HubID = 'FamilyRoom'\n    data.ActivityName = 'Unknown'\n    msg.payload = data\n    node.send(msg)\n}\n\n\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "5467b2ab.21815c"
+            ]
+        ]
+    },
+    {
+        "id": "43cd664f.ca4688",
+        "type": "function",
+        "z": "38a43e3a.cd9272",
+        "name": "HubID",
+        "func": "\ndata = msg.payload\n\nif ((data.status == '1')||(data.status=='4')||(data.activity == \"-1\")){\n    data.HubID = 'Theatre'\n    data.ActivityName = 'Unknown'\n    msg.payload = data\n    node.send(msg)\n}\n\n\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "5467b2ab.21815c"
+            ]
+        ]
+    },
+    {
+        "id": "5dc8fd9f.b878f4",
+        "type": "http in",
+        "z": "38a43e3a.cd9272",
+        "name": "Keypress From Harmony",
+        "url": "/keypress/:id",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "aceecfbc.08b16",
+                "f4181810.c59a08"
+            ]
+        ]
+    },
+    {
+        "id": "e50228eb.b46858",
+        "type": "switch",
+        "z": "b618978a.87b048",
+        "name": "Interface Switch",
+        "property": "protocol",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "WakeOnLan",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "IR",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "INTERNAL",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "TCPIP",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "REST",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "d08ee663.1b7a68"
+            ],
+            [
+                "99eb875b.4a4818"
+            ],
+            [
+                "b1128ea5.e73d4",
+                "2d21bbe6.07c3f4"
+            ],
+            [
+                "8aa3646a.20e8f8"
+            ],
+            [
+                "433f00d1.a159a"
+            ]
+        ]
+    },
+    {
+        "id": "99d8b233.7c52b",
+        "type": "HWS command",
+        "z": "3705bf07.95e76",
+        "name": "FamilyRoom IR - Samsung TV",
+        "server": "e9d71a40.782598",
+        "activity": "64084962",
+        "command": null,
+        "hold": "0",
+        "repeat": "1",
+        "delay": "0",
+        "x": 670,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99eb875b.4a4818",
+        "type": "subflow:3705bf07.95e76",
+        "z": "b618978a.87b048",
+        "name": "",
+        "env": [],
+        "x": 500,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "3551cb59.4d1d74",
+        "type": "switch",
+        "z": "3705bf07.95e76",
+        "name": "Device Switch",
+        "property": "device",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "TV:FamilyRoom",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "xBoxOneS",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 400,
+        "y": 40,
+        "wires": [
+            [
+                "99d8b233.7c52b"
+            ],
+            [
+                "82d47981.230798"
+            ]
+        ]
+    },
+    {
+        "id": "ff22ac2f.7df2c",
+        "type": "debug",
+        "z": "65545df2.7c5e34",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 350,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e889a7ca.b55548",
+        "type": "function",
+        "z": "fcb0a14.a274f6",
+        "name": "Telnet Devices",
+        "func": "Command = msg.command\nDevice = msg.device\nDeviceList = global.get('Devices')\nmsg.host = DeviceList[Device]['Address']\nmsg.port = DeviceList[Device]['Interface']['Port']\nheader = DeviceList[Device]['Interface']['Header']\n//footer = DeviceList[Device]['Interface']['Footer']\n\nline = DeviceList[Device]['Interface']['LineFeed']\ncr = DeviceList[Device]['Interface']['CarriageReturn']\nheaderbuf = Buffer.alloc(header.length,header)\nfor (idx=0;idx<header.length;idx++){headerbuf[idx]= header[idx]}\ncmdbuf = Buffer.alloc(Command.length)\nfor (idx=0;idx<Command.length;idx++){\n    if ((typeof Command)=='string'){\n        cmdbuf[idx] = Command.charCodeAt(idx)\n    }else{\n        cmdbuf[idx] = Command[idx]}\n    }\nlf = Buffer.alloc(line.length,line)\ncr = Buffer.alloc(cr.length,cr)\n\nmsg.payload = Buffer.concat([headerbuf,cmdbuf,lf,cr])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 40,
+        "wires": [
+            [
+                "5fb22fa8.6f33f"
+            ]
+        ]
+    },
+    {
+        "id": "d08ee663.1b7a68",
+        "type": "wake on lan",
+        "z": "b618978a.87b048",
+        "mac": "00:D8:61:34:63:12",
+        "host": "192.168.1.28",
+        "name": "Plex Server",
+        "x": 510,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "971e34ee.81bcf8",
+        "type": "inject",
+        "z": "b618978a.87b048",
+        "name": "",
+        "topic": "INIT",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "d08ee663.1b7a68"
+            ]
+        ]
+    },
+    {
+        "id": "5fb22fa8.6f33f",
+        "type": "tcp request",
+        "z": "fcb0a14.a274f6",
+        "server": "",
+        "port": "",
+        "out": "time",
+        "splitc": "100",
+        "name": "",
+        "x": 500,
+        "y": 40,
+        "wires": [
+            [
+                "73685866.6fc1f8"
+            ]
+        ]
+    },
+    {
+        "id": "60787b6f.bbdb84",
+        "type": "http request",
+        "z": "c9602112.d5319",
+        "name": "",
+        "method": "use",
+        "ret": "txt",
+        "url": "",
+        "tls": "",
+        "x": 450,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f201fb8f.c54958",
+        "type": "function",
+        "z": "c9602112.d5319",
+        "name": "Telnet Devices",
+        "func": "Command = msg.command\nDevice = msg.device\nDeviceList = global.get('Devices')\nurl = \"http://\" + DeviceList[Device]['Address'] + \":\" + DeviceList[Device]['Interface']['Port'] + \"/\"\nmsg.method = DeviceList[Device]['Interface']['Method']\n\n\n\nmsg.url = url + Command\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 190,
+        "y": 60,
+        "wires": [
+            [
+                "60787b6f.bbdb84"
+            ]
+        ]
+    },
+    {
+        "id": "433f00d1.a159a",
+        "type": "subflow:c9602112.d5319",
+        "z": "b618978a.87b048",
+        "name": "",
+        "x": 480,
+        "y": 540,
+        "wires": [
+            [
+                "70e20529.d9741c"
+            ]
+        ]
+    },
+    {
+        "id": "70e20529.d9741c",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Rest Message",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b1128ea5.e73d4",
+        "type": "function",
+        "z": "b618978a.87b048",
+        "name": "ProjectorZoomControl",
+        "func": "var idx\nvar delay = 150\ncommand = msg.command\nDevices = global.get('Devices')\nconsole.log('Command:'+ command)\nCurrentZoom = global.get('CurrentZoom')||0\nCurrentShift = global.get('CurrentShift')||0\nCurrentFocus = global.get('CurrentFocus')||0\n\n\nswitch (command){\n    case 'Calibrate':\n        NumZoomOut = 150\n        NumZoomIn = 0\n        NumShiftDown = 100\n        NumShiftUp = 0\n        NumFocusFar = 100\n        NumFocusNear = 0\n        CurrentZoom = 150\n        CurrentShift = 100\n        CurrentFocus = 100\n        break\n    case 'Screen178':\n        TargetZoom = 0\n        TargetShift = 0\n        TargetFocus = 0\n        NumZoomOut = Math.max(TargetZoom-CurrentZoom,0)\n        NumZoomIn = Math.max(CurrentZoom-TargetZoom,0)\n        NumShiftUp = Math.max(TargetShift-CurrentShift,0)\n        NumShiftDown = Math.max(CurrentShift-TargetShift,0)\n        NumFocusNear = Math.max(TargetFocus-CurrentFocus,0)\n        NumFocusFar = Math.max(CurrentFocus-TargetFocus,0)\n        break\n    case 'Screen235':\n        TargetZoom = 85\n        TargetShift = 0\n        TargetFocus = 0\n        NumZoomOut = Math.max(TargetZoom-CurrentZoom,0)\n        NumZoomIn = Math.max(CurrentZoom-TargetZoom,0)\n        NumShiftUp = Math.max(TargetShift-CurrentShift,0)\n        NumShiftDown = Math.max(CurrentShift-TargetShift,0)\n        NumFocusNear = Math.max(TargetFocus-CurrentFocus,0)\n        NumFocusFar = Math.max(CurrentFocus-TargetFocus,0)\n        break;\n    default:\n        NumZoomOut = 0\n        NumZoomIn = 0\n        NumFocusNear = 0\n        NumFocusFar = 0\n        NumShiftUp = 0\n        NumShiftDown = 0;\n        break;\n}\nmsg.device = 'Theatre:Projector'\nmsg.protocol = 'TCPIP'\n\nmsg.command = Devices[msg.device]['Commands']['Zoom:Out'];node.send(msg);\ntShift = setTimeOut(function(){\nMultiSend(msg, Devices[msg.device]['Commands']['Cursor:Up'], NumZoomOut,delay)},50)\n//MultiSend(msg, Devices[msg.device]['Commands']['Cursor:Down'], NumZoomIn,delay) \n\n//tShift = setTimeOut(function(){\n//    msg.command = Devices[msg.device]['Commands']['Shift:Out'];node.send(msg);\n//    MultiSend(msg, Devices[msg.device]['Commands']['Cursor:Up'], NumZoomOut,delay)\n//    MultiSend(msg, Devices[msg.device]['Commands']['Cursor:Down'], NumZoomIn,delay)  \n//},NumZoomIn+NumZoomOut+3)\n\n//tFocus = setTimeOut(function(){\n//    msg.command = Devices[msg.device]['Commands']['Focus:Near'];node.send(msg);\n//    MultiSend(msg, Devices[msg.device]['Commands']['Cursor:Up'], NumZoomOut,delay)\n//    MultiSend(msg, Devices[msg.device]['Commands']['Cursor:Down'], NumZoomIn,delay)  \n//},NumZoomIn+NumZoomOut+NumShiftUp+NumShiftDown + 6)\n\ntimeOK = setTimeout(function(){\n    msg.command = Devices[msg.device]['Commands']['Cursor:OK'];\n    node.send(msg);\n   },(NumZoomIn+NumZoomOut+NumFocusNear+NumFocusFar+NumShiftUp+NumShiftDown+10)*delay)\n\n\n\nglobal.set('CurrentZoom',CurrentZoom+NumZoomOut-NumZoomIn)\nglobal.set('CurrentShift',CurrentShift+NumShiftUp-NumShiftDown)\nglobal.set('CurrentFocus',CurrentFocus+NumFocusNear-NumFocusFar)\nreturn;\n\nfunction MultiSend(msg, Command, Repeat, delay){\n   idx = 0\n   idVar = setInterval(function(){\n    if (idx>=Repeat){\n        clearInterval(idVar);\n    }else{\n        msg.command = Command;\n        msg.idx = idx;\n        node.send(msg);\n        idx++;\n    }},delay)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 540,
+        "y": 400,
+        "wires": [
+            [
+                "c2b129b0.d78d58",
+                "8aa3646a.20e8f8"
+            ]
+        ]
+    },
+    {
+        "id": "2d21bbe6.07c3f4",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "ProjectorCommandIn",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "x": 800,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c2b129b0.d78d58",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Zoom Commands",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "x": 770,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "becd87e2.b44cb8",
+        "type": "function",
+        "z": "b618978a.87b048",
+        "name": "ProjectorZoomControl",
+        "func": "var idx\nvar delay = 150\ncommand = msg.command\nDevices = global.get('Devices')\nconsole.log('Command:'+ command)\nCurrentZoom = global.get('CurrentZoom')||0\n//CurrentShift = global.get('CurrentShift')||0\n//CurrentFocus = global.get('CurrentFocus')||0\n\n//CurrentZoom = 0\n\n//CurrentZoom = 0\nCurrentShift = 0\nCurrentFocus = 0\n\nswitch (command){\n    case 'Calibrate':\n        NumZoomOut = 150\n        NumZoomIn = 0\n        NumShiftDown = 100\n        NumShiftUp = 0\n        NumFocusFar = 100\n        NumFocusNear = 0\n        CurrentZoom = 150\n        CurrentShift = 100\n        CurrentFocus = 100\n        console.log('Calibate:' + NumZoomOut)\n        break\n    case 'Screen178':\n        TargetZoom = 0\n        TargetShift = 0\n        TargetFocus = 0\n        NumZoomOut = Math.max(TargetZoom-CurrentZoom,0)\n        NumZoomIn = Math.max(CurrentZoom-TargetZoom,0)\n        NumShiftUp = Math.max(TargetShift-CurrentShift,0)\n        NumShiftDown = Math.max(CurrentShift-TargetShift,0)\n        NumFocusNear = Math.max(TargetFocus-CurrentFocus,0)\n        NumFocusFar = Math.max(CurrentFocus-TargetFocus,0)\n        console.log('Screen178:'+NumZoomOut)\n        break\n    case 'Screen235':\n        TargetZoom = 85\n        TargetShift = 0\n        TargetFocus = 0\n        NumZoomOut = Math.max(TargetZoom-CurrentZoom,0)\n        NumZoomIn = Math.max(CurrentZoom-TargetZoom,0)\n        NumShiftUp = Math.max(TargetShift-CurrentShift,0)\n        NumShiftDown = Math.max(CurrentShift-TargetShift,0)\n        NumFocusNear = Math.max(TargetFocus-CurrentFocus,0)\n        NumFocusFar = Math.max(CurrentFocus-TargetFocus,0)\n        console.log('Screen235:' + NumZoomOut + ':' + NumZoomIn)\n        break;\n    default:\n        NumZoomOut = 0\n        NumZoomIn = 0\n        NumFocusNear = 0\n        NumFocusFar = 0\n        NumShiftUp = 0\n        NumShiftDown = 0;\n        console.log('Default')\n        break;\n}\nmsg.device = 'Theatre:Projector'\nmsg.protocol = 'TCPIP'\n\nmsg.command = Devices[msg.device]['Commands']['Zoom:Out'];node.send(msg);idx=0;\n\nidVar = setInterval(function(){\n    if (idx>=NumZoomOut){clearInterval(idVar);\n        node.send(msg)\n        console.log(idVar)\n        HoldOff1 = false\n    }else{\n        console.log(idVar)\n        msg.command = Devices[msg.device]['Commands']['Cursor:Up'];\n        msg.idx = idx; node.send(msg);idx++;}},delay)\nidx2 = 0;\nidVar2 = setInterval(function(){\n    if (idx2>=NumZoomIn){clearInterval(idVar2);\n        node.send(msg);\n        HoldOff2 = false\n    }else{\n        msg.command = Devices[msg.device]['Commands']['Cursor:Down'];\n        msg.idx = idx2;node.send(msg);idx2++;}},delay)\n        \ntimeout = setTimeout(function(){msg.command = Devices[msg.device]['Commands']['Cursor:OK'];node.send(msg)},(NumZoomIn+NumZoomOut+5)*delay)\n\n\n//msg.command = Devices[msg.device]['Commands']['Shift:Up'];node.send(msg)  \n//idVar = setInterval(function(){\n//    if (idx>=NumShiftUp){clearInterval(idVar);idx=0;}else{\n//        msg.command = Devices[msg.device]['Commands']['Cursor:Up'];\n//        node.send(msg);idx++;}},100)\n//idVar = setInterval(function(){\n//    if (idx>=NumShiftDown){clearInterval(idVar);idx=0;}else{\n//        msg.command = Devices[msg.device]['Commands']['Cursor:Down'];\n//        node.send(msg);idx++;}},100)    \n\n//msg.command = Devices[msg.device]['Commands']['Focus:Near'];node.send(msg)\n//idVar = setInterval(function(){\n//    if (idx>=NumFocusNear){clearInterval(idVar);idx=0;}else{\n//        msg.command = Devices[msg.device]['Commands']['Cursor:Up'];\n//        node.send(msg);idx++;}},100)\n//idVar = setInterval(function(){\n//    if (idx>=NumFocusFar){clearInterval(idVar);idx=0;}else{\n//        msg.command = Devices[msg.device]['Commands']['Cursor:Down'];\n//        node.send(msg);idx++;}},100)  \n\n\n\nconsole.log(CurrentZoom+NumZoomOut-NumZoomIn)\nglobal.set('CurrentZoom',CurrentZoom+NumZoomOut-NumZoomIn)\nglobal.set('CurrentShift',CurrentShift+NumShiftUp-NumShiftDown)\nglobal.set('CurrentFocus',CurrentFocus+NumFocusNear-NumFocusFar)\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "777dd2e3.f4f48c",
+        "type": "subflow:dc466c0e.9afc3",
+        "z": "b618978a.87b048",
+        "name": "RokuEmulator",
+        "env": [],
+        "x": 470,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "73685866.6fc1f8",
+        "type": "function",
+        "z": "fcb0a14.a274f6",
+        "name": "Telnet Devices",
+        "func": "fb = msg.payload\nDevice = msg.device\nDeviceList = global.get('Devices')\nfeedback = fb.toString()\n\nmsg.payload = feedback.substring(0,3)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d2d8fe3.dc6de",
+        "type": "debug",
+        "z": "b618978a.87b048",
+        "name": "Device Status",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 960,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "82d47981.230798",
+        "type": "HWS command",
+        "z": "3705bf07.95e76",
+        "name": "xBox One S",
+        "server": "675d78ae.10da88",
+        "activity": "64268414",
+        "command": null,
+        "hold": "0",
+        "repeat": "1",
+        "delay": "0",
+        "x": 610,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    }
+]

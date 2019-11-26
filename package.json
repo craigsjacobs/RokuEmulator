@@ -1,0 +1,24 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red-contrib-harmony-websocket": "~1.3.0",
+    "node-red-contrib-ibm-watson-iot": "^0.2.8",
+    "node-red-contrib-os": "~0.1.7",
+    "node-red-contrib-readdir": "~1.0.1",
+    "node-red-contrib-ui_list": "~0.1.3",
+    "node-red-contrib-uibuilder": "~1.0.12",
+    "node-red-contrib-wemo-emulator": "~0.6.0",
+    "node-red-dashboard": "~2.13.0",
+    "node-red-node-email": "~1.7.1",
+    "node-red-node-pi-gpio": "^1.0.6",
+    "node-red-node-ping": "0.0.16",
+    "node-red-node-random": "^0.1.4",
+    "node-red-node-smooth": "^0.1.2",
+    "node-red-node-wemo": "~0.1.14",
+    "node-red-node-wol": "0.0.12",
+    "roku-emulator-for-Harmony": "file:dev/rokuEmulator",
+    "rokuemulator": "file:dev/rokuEmulator"
+  }
+}
