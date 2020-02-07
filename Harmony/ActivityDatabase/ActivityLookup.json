@@ -1,0 +1,15 @@
+    
+{
+    "41388244":{"Activity":"FamilyRoom:DVR"},
+    "41580423":{"Activity":"FamilyRoom:Stream"},
+    "40579272":{"Activity":"PC Gamer"},
+    "41527967":{"Activity":"Quadview"},
+    "41502241":{"Activity":"Theatre:Stream"},
+    "41527983":{"Activity":"Theatre:DVR"},
+    "41527996":{"Activity":"Theatre:Gaming"},
+    "41528029":{"Activity":"Theatre:HTPC"},
+	"43281786":{"Activity":"BonusRoom:Stream"},
+	"43281785":{"Activity":"BonusRoom:DVR"},
+	"43281835":{"Activity":"BonusRoom:Music"},
+    "-1":{"Activity":"Shutdown"}
+    }
