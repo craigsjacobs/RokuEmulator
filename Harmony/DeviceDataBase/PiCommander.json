@@ -1,0 +1,16 @@
+{
+"Friendly Names": ["PiCommander"],
+"Manufacturer": "Jacobs Inc",
+"Model Number": "PC3000",
+"Interface": {
+    "Addresses": ["192.168.1.23"],
+    "Port":"8060",
+    "Protocol":"INTERNAL"},
+"Commands": {
+    "Calibrate": "Calibrate",
+    "Screen235": "Screen235",
+    "Screen178": "Screen178"
+    },
+"Feedbacks": {}
+}
+

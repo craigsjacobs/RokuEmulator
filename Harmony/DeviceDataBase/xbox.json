@@ -1,0 +1,41 @@
+{
+"Friendly Names": ["xBoxOneS"],
+"Manufacturer": "Microsoft",
+"Part Number": "xBoxOneS",
+"Interface": {
+	"Addresses": ["192.168.1.53"],
+        "Port":"31339",
+	"Protocol":"IR",
+        "Bufferize": "true",
+	"Function":"None",
+	"Header":[],
+	"Footer":[],
+	"LineFeed":[],
+	"CarriageReturn":[13]},
+"Commands": {
+	"Power:On":"Power On",
+        "Power:Off":"Power Off",
+        "Play":"Play",
+	"Pause":"Pause",
+	"Forward": "Fast Forward",
+	"Reverse": "Rewind",
+	"Replay":"Skip Backward",
+	"Advance": "Skip Forward",
+	"Cursor:Up": "Direction Up",
+	"Cursor:Down": "Direction Down",
+	"Cursor:Left": "Direction Left",
+        "Cursor:Right": "Direction Right",
+	"Cursor:Select":"Select",
+	"Exit": "Back",
+        "Back": "Back",
+	"Color:Yellow": "Yellow",
+	"Color:Blue": "Blue",
+	"Color:Red":"Red",
+	"Color:Green": "Green",
+	"Guide": "Xbox",
+	"Menu":"Xbox"
+	},
+	"Feedbacks": {}
+}
+
+

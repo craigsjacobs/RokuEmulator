@@ -1,0 +1,20 @@
+{
+"Friendly Names": ["Theatre:SoffitLED"],
+"Manufacturer": "Jacobs Berry",
+"Model Number": "CSJ-001",
+"Interface": {
+    "Addresses": ["192.168.1.24:1880"],
+    "Protocol":"REST",
+    "Function":"None",
+    "PreRoll":"None",
+    "PostRoll":"None",
+    "LineFeed":"No",
+    "CarriageReturn":"No"},
+"Commands": {
+    "Power:On":"/Commands/Power/On",
+    "Power:Off":"/Commands/Power/Off",
+    "Brightness:?*?":"/Commands/Brightness"
+    },
+"Feedbacks": {}
+}
+

@@ -1,0 +1,35 @@
+{
+"Friendly Names": [
+    "Roku:Maize", 
+    "Roku:Blue"],
+"Manufacturer": "Roku",
+"Model Number": "Ultra 4K",
+"Interface": {
+    "Addresses": [
+	"192.168.1.55", 
+	"192.168.1.56"],
+    "Port":"8060",
+    "Protocol":"REST",
+    "Method":"POST"},
+"Commands": {
+    "Menu": "keypress/Home",
+    "Reverse": "keypress/Rev",
+    "Forward": "keypress/Fwd",
+    "Play": "keypress/Play",
+    "Cursor:OK": "keypress/Select",
+    "Cursor:Left": "keypress/Left",
+    "Cursor:Right": "keypress/Right",
+    "Cursor:Up": "keypress/Up",
+    "Cursor:Down": "keypress/Down",
+    "Back": "keypress/Back",
+    "Info": "keypress/Info",
+    "Search": "keypress/Search",
+    "Enter": "keypress/Enter",
+    "Netflix": "launch/12",
+    "Amazon": "launch/13",
+    "Hulu": "launch/2285",
+    "Plex": "launch/13535"
+    },
+"Feedbacks": {}
+}
+

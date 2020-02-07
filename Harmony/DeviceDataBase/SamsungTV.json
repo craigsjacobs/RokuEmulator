@@ -1,0 +1,23 @@
+{
+"Friendly Names":["TV:FamilyRoom","TV:BonusRoom"],
+"Model Number":"",
+"Manufacturer":"Samsung",
+"Interface": {
+    "Addresses": ["64084692","67974792"],
+    "Port":"8102",
+    "Protocol":"IR",
+    "Function":"None",
+    "PreRoll":"None",
+    "PostRoll":"None",
+    "LineFeed":"No",
+    "CarriageReturn":"No"},
+ "Commands":{
+    "Power:On":"Power On",
+    "Power:Off":"Power Off",
+    "Volume:Up":"Volume Up",
+    "Volume:Down":"Volume Down",
+    "Volume:Mute":"Mute"
+    },
+ "Feedbacks":{}
+ 
+ }

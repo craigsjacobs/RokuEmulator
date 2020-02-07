@@ -1,0 +1,80 @@
+{
+"Friendly Names":["Matrix"],
+"Model Number":"RAV88",
+"Manufacturer":"No Hassle AV",
+"Interface": {
+    "Addresses": ["192.168.1.24"],
+    "Port":"8060",
+    "Protocol":"TCPIP",
+    "Header":[],
+    "Footer":[],
+    "LineFeed":[],
+    "CarriageReturn":[]},
+"Commands":{
+    "Route::TIVO:Maize->Theatre:Receiver":"1V1.",
+    "Route::TIVO:Blue->Theatre:Receiver":"1V1.",
+    "Route::Roku:Maize->Theatre:Receiver":"1V1.",
+    "Route::Roku:Blue->Theatre:Receiver":"1V1.",
+    "Route::PCServer->Theatre:Receiver":"1V1.",
+    "Route::xBox->TheatreReceiver":"1V1.",
+    
+    "Route::TIVO:Maize->FamilyRoom":"1V1.",
+    "Route::TIVO:Blue->FamilyRoom":"1V1.",
+    "Route::Roku:Maize->FamilyRoom":"1V1.",
+    "Route::Roku:Blue->FamilyRoom":"1V1.",
+    "Route::PCServer->FamilyRoom":"1V1.",
+    "Route::xBox->FamilyRoom":"1V1.",
+    
+    "Route::TIVO:Maize->BonusRoom":"1V1.",
+    "Route::TIVO:Blue->BonusRoom":"1V1.",
+    "Route::Roku:Maize->BonusRoom":"1V1.",
+    "Route::Roku:Blue->BonusRoom":"1V1.",
+    "Route::PCServer->BonusRoom":"1V1.",
+    "Route::xBox->BonusRoom":"1V1.",
+    
+    "Route::TIVO:Maize->Quadview1":"1V1.",
+    "Route::TIVO:Blue->Quadview1":"1V1.",
+    "Route::Roku:Maize->Quadview1":"1V1.",
+    "Route::Roku:Blue->Quadview1":"1V1.",
+    "Route::PCServer->Quadview1":"1V1.",
+    "Route::xBox->Quadview1":"1V1.",
+    
+    "Route::TIVO:Maize->Quadview2":"1V1.",
+    "Route::TIVO:Blue->Quadview2":"1V1.",
+    "Route::Roku:Maize->Quadview2":"1V1.",
+    "Route::Roku:Blue->Quadview2":"1V1.",
+    "Route::PCServer->Quadview2":"1V1.",
+    "Route::xBox->Quadview2":"1V1.",
+    
+    "Route::TIVO:Maize->Quadview3":"1V1.",
+    "Route::TIVO:Blue->Quadview3":"1V1.",
+    "Route::Roku:Maize->Quadview3":"1V1.",
+    "Route::Roku:Blue->Quadview3":"1V1.",
+    "Route::PCServer->Quadview3":"1V1.",
+    "Route::xBox->Quadview3":"1V1.",
+    
+    "Route::TIVO:Maize->Quadview4":"1V1.",
+    "Route::TIVO:Blue->Quadview4":"1V1.",
+    "Route::Roku:Maize->Quadview4":"1V1.",
+    "Route::Roku:Blue->Quadview4":"1V1.",
+    "Route::PCServer->Quadview4":"1V1.",
+    "Route::xBox->Quadview4":"1V1.",
+    
+    "Route::TIVO:Maize->Garage":"1V1.",
+    "Route::TIVO:Blue->Garage":"1V1.",
+    "Route::Roku:Maize->Garage":"1V1.",
+    "Route::Roku:Blue->Garage":"1V1.",
+    "Route::PCServer->Garage":"1V1.",
+    "Route::xBox->Garage":"1V1.",
+    
+    "Route::TIVO:Maize->Bar":"1V1.",
+    "Route::TIVO:Blue->Bar":"1V1.",
+    "Route::Roku:Maize->Bar":"1V1.",
+    "Route::Roku:Blue->Bar":"1V1.",
+    "Route::PCServer->Bar":"1V1.",
+    "Route::xBox->Bar":"1V1."
+    
+    },
+"Feedbacks":{}
+ 
+ }
